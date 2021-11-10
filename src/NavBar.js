@@ -1,16 +1,19 @@
 import React from 'react';
 import ListItem from './ListItem';
 
-const HeaderList = ({ listStyle, itemStyle }) => {
+const NavBar = ({ listStyle, itemStyle }) => {
   return (
     <ul className={listStyle} >
+      <p 
+        className={`text-gray-50 flex-1 text-left hover:none text-xl lg:text-2xl 2xl:text-4xl`}>
+        <strong>Seth Strouf</strong>
+      </p>
       <ListItem 
         itemStyle={itemStyle}
         faStyle="fas"
         icon="envelope" 
         link="mailto:seth.strouf@gmail.com"
       >
-        Send me a message
       </ListItem>
       <ListItem 
         itemStyle={itemStyle}
@@ -18,7 +21,6 @@ const HeaderList = ({ listStyle, itemStyle }) => {
         icon="github" 
         link="https://github.com/sethstrouf"
        >
-         Check out my code
       </ListItem>
       <ListItem
         itemStyle={itemStyle}
@@ -26,7 +28,6 @@ const HeaderList = ({ listStyle, itemStyle }) => {
         icon="linkedin" 
         link="https://www.linkedin.com/in/sethstrouf"
       >
-        Connect with me on LinkedIn
       </ListItem>
       <ListItem
         itemStyle={itemStyle}
@@ -34,10 +35,10 @@ const HeaderList = ({ listStyle, itemStyle }) => {
         icon="file" 
         link="https://drive.google.com/file/d/1ge77AXAoAvWQNTWVLrRyusPm516Vs70E/view?usp=sharing"
       >  
-        View my resume 
+        Resume
       </ListItem>
   </ul>
   )
 }
 
-export default HeaderList;
+export default NavBar;
