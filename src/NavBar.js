@@ -35,7 +35,6 @@ const NavBar = ({ listStyle, itemStyle }) => {
         icon="file" 
         link="https://drive.google.com/file/d/1ge77AXAoAvWQNTWVLrRyusPm516Vs70E/view?usp=sharing"
       >  
-        Resume
       </ListItem>
   </ul>
   )
