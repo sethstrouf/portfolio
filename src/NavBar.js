@@ -5,7 +5,7 @@ const NavBar = ({ listStyle, itemStyle }) => {
   return (
     <ul className={listStyle} >
       <p 
-        className={`text-gray-50 flex-1 text-left hover:none text-xl lg:text-2xl 2xl:text-4xl`}>
+        className={`text-gray-50 flex-1 text-left hover:none text-xl md:text-2xl xl:text-4xl`}>
         <strong>Seth Strouf</strong>
       </p>
       <ListItem 
