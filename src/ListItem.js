@@ -1,4 +1,4 @@
-import React from 'react'
+import React from 'react';
 
 const ListItem = ({ itemStyle, faStyle, icon, link }) => {
   return (
@@ -12,4 +12,4 @@ const ListItem = ({ itemStyle, faStyle, icon, link }) => {
   )
 }
 
-export default ListItem
+export default ListItem;

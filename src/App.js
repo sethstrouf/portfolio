@@ -1,3 +1,4 @@
+import MainHeader from './MainHeader';
 import NavBar from './NavBar';
 
 export default function App() {
@@ -19,19 +20,36 @@ export default function App() {
                           md:p-8 md:text-2xl
                           xl:text-3xl"><em>a full-stack web developer</em></p>
         </div>
-{/* ADD BUTTON STYLING?? */}
-            <p className="pt-4 underline hover:text-gray-600
-                          md:text-lg 
+{/* ADD BUTTON STYLING??
+    Horizontal Green line to mobile?
+    gradient flex box??
+ */}
+            <p className="pt-8
+                          md:text-lg
                           xl:text-xl">
-              <a href="https://drive.google.com/file/d/1ge77AXAoAvWQNTWVLrRyusPm516Vs70E/view?usp=sharing">
-                View my resume
+              <a href="https://drive.google.com/file/d/1ge77AXAoAvWQNTWVLrRyusPm516Vs70E/view?usp=sharing"
+                 className="py-1 px-6 rounded bg-pink-100 border-4 border-pink-700 border-double hover:bg-pink-200">
+                View my resume!
               </a>
             </p>
       </header>
 
       <main className="pt-6">
-        Main body
-      </main>
+        <MainHeader>About Me</MainHeader>
+        <p className="mx-12 my-6 text-left">After 12 years of teaching music, I'm following my other lifelong 
+          passion of programming! I enjoy working in the full stack of
+          web development and have most experience with Ruby on Rails and 
+          React. I welcome all professional opportunities and challenges!
+        </p>
+
+        <MainHeader>Projects</MainHeader>
+
+        <MainHeader>Contact Me</MainHeader>
+        
+
+
+
+        </main>
       
     </div>
   );
