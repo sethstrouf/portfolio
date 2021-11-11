@@ -1,5 +1,6 @@
-import MainHeader from './MainHeader';
 import NavBar from './NavBar';
+import MainHeader from './MainHeader';
+import ContactForm from './ContactForm';
 
 export default function App() {
   return (
@@ -44,9 +45,7 @@ export default function App() {
         <MainHeader>Projects</MainHeader>
 
         <MainHeader>Contact Me</MainHeader>
-        
-
-
+        <ContactForm />
 
         </main>
       
