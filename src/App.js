@@ -13,15 +13,14 @@ export default function App() {
                      xl:text-xl xl:px-4" 
           itemStyle="space-x-1 text-gray-50 hover:text-green-300" />
         <div className="md:flex md:justify-center md:items-center">
-          <h1 className="pt-4 text-4xl
-                         md:p-8 md:my-8 md:text-5xl md:border-r-4 md:border-green-400
+          <h1 className="name pt-4 text-4xl
+                         md:p-8 md:my-8 md:no-underline md:text-5xl md:border-r-4 md:border-green-400
                          xl:text-6xl"><strong>Hi, I'm Seth!</strong></h1>
             <p className="pt-1 text-xl
                           md:p-8 md:text-2xl
                           xl:text-3xl"><em>a full-stack web developer</em></p>
         </div>
-{/* ADD BUTTON STYLING??
-    Horizontal Green line to mobile?
+{/* horizontal Green line to mobile?
     gradient flex box??
  */}
             <p className="pt-8
