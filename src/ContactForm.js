@@ -1,7 +1,7 @@
 import React from 'react';
 
 const ContactForm = () => {
-  
+
   const handleSubmit = (event) => {
     event.preventDefault();
     
@@ -16,12 +16,26 @@ const ContactForm = () => {
 
   return (
     <form id="contact-form" onSubmit={handleSubmit}>
+      <div>
         <label>Name</label>
-        <input type="text" name="user_name" required />
+      </div>
+      <div>
+        <input type="text" name="user_name" required className="form-element" />
+      </div>
+
+      <div>
         <label>Email</label>
-        <input type="email" name="user_email" required />
+      </div>
+      <div>
+        <input type="email" name="user_email" required required className="form-element" />
+      </div>
+
+      <div>
         <label>Message</label>
-        <textarea name="message" required></textarea>
+      </div>
+      <div>
+        <textarea name="message" required required className="form-element"></textarea>
+      </div>
         <input type="submit" value="Send" />
     </form>
   )
