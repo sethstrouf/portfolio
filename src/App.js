@@ -46,6 +46,7 @@ export default function App() {
           </p>
 
         <MainHeader>Projects</MainHeader>
+        <div className="flex flex-row flex-wrap gap-y-12 gap-x-12 px-12">
           <Card
             image="blog.png"
             alt="Blog project"
@@ -55,6 +56,16 @@ export default function App() {
             pageUrl="https://www.hannahbauer.me"
             codeUrl="https://github.com/sethstrouf/blog">
             Blog
+          </Card>
+
+          <Card
+            image=""
+            alt="Weather project"
+            summary="A weather app using an API"
+            tech="CSS, API, JSON"
+            pageUrl="https://www.hannahbauer.me"
+            codeUrl="https://github.com/sethstrouf/blog">
+            Weather API
           </Card>
 
           <Card
@@ -96,6 +107,7 @@ export default function App() {
             codeUrl="https://github.com/sethstrouf/rock-paper-scissors">
             Rock Paper Scissors
           </Card>
+        </div>
 
         <MainHeader>Contact Me</MainHeader>
           <ContactForm />

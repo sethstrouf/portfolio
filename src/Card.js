@@ -2,8 +2,9 @@ import React from 'react';
 
 const Card = ({ image, alt, summary, tech, pageUrl, codeUrl, children} ) => {
   return ( 
-    <div className="my-6 h-48 mx-auto w-11/12 grid grid-cols-12 grid-rows-6 
-                  bg-white rounded-lg shadow-md overflow-hidden">
+    <div className="h-48 mx-auto grid grid-cols-12 grid-rows-6 
+                    w-11/12 sm:w-10/12 md:w-9/12 lg:w-5/12 2xl:w-3/12
+                  bg-white rounded-lg shadow-md overflow-hidden flex-grow">
 
       <div className="col-span-4 row-span-6 aspect-w-2 aspect-h-3">
         <img src={`/img/${image}`} alt={alt}
@@ -23,7 +24,7 @@ const Card = ({ image, alt, summary, tech, pageUrl, codeUrl, children} ) => {
         </p>
       </div>
 
-      <div className="col-span-8 row-span-3 pt-1 text-sm 
+      <div className="col-span-8 row-span-3 pt-1 px-1 text-sm 
                       flex flex-col justify-center items-center">
         <p className="underline font-bold">Tech Used</p>
         <p>{tech}</p>
