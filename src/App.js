@@ -112,6 +112,13 @@ export default function App() {
         <MainHeader>Contact Me</MainHeader>
           <ContactForm />
         </main>
+
+        <footer>
+          <div className="bg-green-700 mt-12 text-gray-50 
+                          border-t-4 border-green-400 py-1">
+            <p>&copy;2021 Seth Strouf</p>
+          </div>
+        </footer>
     </div>
   );
 }
