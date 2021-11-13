@@ -46,7 +46,7 @@ export default function App() {
         </p>
 
         <MainHeader>Projects</MainHeader>
-
+        <p>Cards here</p>
         <MainHeader>Contact Me</MainHeader>
         <ContactForm />
 
