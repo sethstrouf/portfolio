@@ -16,7 +16,7 @@ const NavBar = ({ itemStyle }) => {
         itemStyle={itemStyle}
         faStyle="fas"
         icon="envelope" 
-        link="mailto:seth.strouf@gmail.com"
+        link="#contact-form"
       >
       </ListItem>
       <ListItem 
