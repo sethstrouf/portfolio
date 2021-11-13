@@ -48,12 +48,53 @@ export default function App() {
         <MainHeader>Projects</MainHeader>
           <Card
             image="blog.png"
+            alt="Blog project"
             summary="A recreation of my wife's blog"
-            tech="Ruby on Rails, Vanilla CSS/JS, Authentication and 
+            tech="Ruby on Rails, CSS/SASS, Authentication and 
                   Authorization, AWS Image Hosting, SendGrid Mailing, Faker Gem"
             pageUrl="https://www.hannahbauer.me"
             codeUrl="https://github.com/sethstrouf/blog">
             Blog
+          </Card>
+
+          <Card
+            image="memorycards.png"
+            alt="Memory cards project"
+            summary="A memory game!"
+            tech="React, Vanilla CSS, Vanilla JavaScript"
+            pageUrl="https://sethstrouf.github.io/memory-cards/"
+            codeUrl="https://github.com/sethstrouf/memory-cards">
+            Memory Cards
+          </Card>
+
+          <Card
+            image="calculator.png"
+            alt="Calculator project"
+            summary="One of my first JS projects"
+            tech="Vanilla CSS, Vanilla JavaScript"
+            pageUrl="https://sethstrouf.github.io/calculator/"
+            codeUrl="https://github.com/sethstrouf/calculator">
+            Calculator
+          </Card>
+
+          <Card
+            image="etchasketch.png"
+            alt="Etch a sketch project"
+            summary="Customizable grid size and colors"
+            tech="Vanilla CSS, Vanilla JavaScript"
+            pageUrl="https://sethstrouf.github.io/etch-a-sketch/"
+            codeUrl="https://github.com/sethstrouf/etch-a-sketch">
+            Etch-A-Sketch
+          </Card>
+
+          <Card
+            image="rps.png"
+            alt="Rock, Paper, Scissors project"
+            summary="You vs. the computer"
+            tech="Vanilla CSS, Vanilla JavaScript"
+            pageUrl="https://sethstrouf.github.io/rock-paper-scissors/"
+            codeUrl="https://github.com/sethstrouf/rock-paper-scissors">
+            Rock Paper Scissors
           </Card>
 
         <MainHeader>Contact Me</MainHeader>
