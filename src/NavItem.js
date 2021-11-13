@@ -1,6 +1,6 @@
 import React from 'react';
 
-const ListItem = ({ itemStyle, faStyle, icon, link }) => {
+const NavItem = ({ itemStyle, faStyle, icon, link }) => {
   return (
     <li className={itemStyle} >
       <a href={link}>
@@ -10,4 +10,4 @@ const ListItem = ({ itemStyle, faStyle, icon, link }) => {
   )
 }
 
-export default ListItem;
+export default NavItem;

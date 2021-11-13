@@ -1,5 +1,5 @@
 import React from 'react';
-import ListItem from './ListItem';
+import NavItem from './NavItem';
 
 const NavBar = ({ itemStyle }) => {
   return (
@@ -12,34 +12,34 @@ const NavBar = ({ itemStyle }) => {
                    text-xl md:text-2xl xl:text-4xl">
         <strong>Seth Strouf</strong>
       </p>
-      <ListItem 
+      <NavItem 
         itemStyle={itemStyle}
         faStyle="fas"
         icon="envelope" 
         link="#contact-form"
       >
-      </ListItem>
-      <ListItem 
+      </NavItem>
+      <NavItem 
         itemStyle={itemStyle}
         faStyle="fab"
         icon="github" 
         link="https://github.com/sethstrouf"
        >
-      </ListItem>
-      <ListItem
+      </NavItem>
+      <NavItem
         itemStyle={itemStyle}
         faStyle="fab"
         icon="linkedin" 
         link="https://www.linkedin.com/in/sethstrouf"
       >
-      </ListItem>
-      <ListItem
+      </NavItem>
+      <NavItem
         itemStyle={itemStyle}
         faStyle="fas"
         icon="file" 
         link="https://drive.google.com/file/d/1ge77AXAoAvWQNTWVLrRyusPm516Vs70E/view?usp=sharing"
       >  
-      </ListItem>
+      </NavItem>
   </ul>
   )
 }
