@@ -1,6 +1,7 @@
 import NavBar from './NavBar';
 import MainHeader from './MainHeader';
 import ContactForm from './ContactForm';
+import Card from './Card';
 
 export default function App() {
   return (
@@ -45,7 +46,7 @@ export default function App() {
           </p>
 
         <MainHeader>Projects</MainHeader>
-          <p>Cards here</p>
+          <Card />
 
         <MainHeader>Contact Me</MainHeader>
           <ContactForm />
