@@ -3,3 +3,4 @@
 ### Technologies Used
 - React
 - Tailwind CSS
+- EmailJS (Contact Form)
