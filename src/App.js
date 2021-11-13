@@ -29,8 +29,8 @@ export default function App() {
         </div>
           <p className="md:text-lg xl:text-xl">
             <a href="https://drive.google.com/file/d/1ge77AXAoAvWQNTWVLrRyusPm516Vs70E/view?usp=sharing"
-                className="py-0.5 px-4 md:px-6 xl:px-8 rounded bg-pink-100 border-4 
-                         border-pink-700 border-double hover:bg-pink-200">
+                className="py-0.5 px-4 md:px-6 xl:px-8 rounded bg-yellow-100 border-4 
+                         border-yellow-700 border-double hover:bg-yellow-200">
               View my resume!
             </a>
           </p>
