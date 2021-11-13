@@ -35,23 +35,21 @@ export default function App() {
           </p>
       </header>
 
-      <main className="pt-6">
-
+      <main>
         <MainHeader>About Me</MainHeader>
-        <p className="mx-12 my-6 text-left">
-          After a decade of teaching music, I'm following my other lifelong 
-          passion of programming! I enjoy working in the full stack of
-          web development and have most experience with Ruby on Rails and 
-          React. I welcome all professional opportunities and challenges!
-        </p>
+          <p className="mx-12 text-left">
+            After a decade of teaching music, I'm following my other lifelong 
+            passion of programming! I enjoy working in the full stack of
+            web development and have most experience with Ruby on Rails and 
+            React. I welcome all professional opportunities and challenges!
+          </p>
 
         <MainHeader>Projects</MainHeader>
-        <p>Cards here</p>
-        <MainHeader>Contact Me</MainHeader>
-        <ContactForm />
+          <p>Cards here</p>
 
+        <MainHeader>Contact Me</MainHeader>
+          <ContactForm />
         </main>
-      
     </div>
   );
 }

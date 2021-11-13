@@ -16,7 +16,7 @@ const ContactForm = () => {
 
   return (
     <form id="contact-form" onSubmit={handleSubmit} 
-          className="my-8 py-4 mx-auto bg-white shadow-lg rounded-lg 
+          className="mb-6 py-4 mx-auto bg-white shadow-lg rounded-lg 
                      w-10/12 border border-gray-300
                      md:w-8/12 lg:w-7/12 xl:w-6/12 2xl:w-5/12">
 
