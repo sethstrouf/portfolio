@@ -46,7 +46,15 @@ export default function App() {
           </p>
 
         <MainHeader>Projects</MainHeader>
-          <Card />
+          <Card
+            image="blog.png"
+            summary="A recreation of my wife's blog"
+            tech="Ruby on Rails, Vanilla CSS/JS, Authentication and 
+                  Authorization, AWS Image Hosting, SendGrid Mailing, Faker Gem"
+            pageUrl="https://www.hannahbauer.me"
+            codeUrl="https://github.com/sethstrouf/blog">
+            Blog
+          </Card>
 
         <MainHeader>Contact Me</MainHeader>
           <ContactForm />
