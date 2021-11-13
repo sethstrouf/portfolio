@@ -12,9 +12,9 @@
 
 @layer components {
   .form-div {
-    @apply text-left;
+    @apply text-left mx-auto w-10/12 ;
   }
   .form-element {
-    @apply border border-gray-500 w-full;
+    @apply mb-4 p-1 border border-gray-500 w-full rounded;
   }
 }

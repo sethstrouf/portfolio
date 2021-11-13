@@ -21,9 +21,6 @@ export default function App() {
                           md:p-8 md:text-2xl
                           xl:text-3xl"><em>a full-stack web developer</em></p>
         </div>
-{/* horizontal Green line to mobile?
-    gradient flex box??
- */}
             <p className="pt-8
                           md:text-lg
                           xl:text-xl">

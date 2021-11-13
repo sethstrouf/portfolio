@@ -15,29 +15,34 @@ const ContactForm = () => {
   }
 
   return (
-    <form id="contact-form" onSubmit={handleSubmit} className="p-4">
+    <form id="contact-form" onSubmit={handleSubmit} 
+          className="my-6 py-4 mx-auto bg-white shadow-lg rounded-lg 
+                     w-10/12 border border-gray-300
+                     md:w-8/12 lg:w-7/12 xl:w-6/12 2xl:w-5/12">
 
       <div className="form-div">
         <label htmlFor="user_name">Name</label>
-      </div><div>
         <input type="text" name="user_name" placeholder="Name" required 
                className="form-element" />
       </div>
 
       <div className="form-div">
         <label htmlFor="user_email">Email</label>
-      </div><div>
-        <input type="email" name="user_email" required className="form-element" />
+        <input type="email" name="user_email" placeholder="Email" required 
+               className="form-element" />
       </div>
 
       <div className="form-div">
         <label htmlFor="message">Message</label>
-      </div><div>
-        <textarea name="message" required className="form-element"></textarea>
+        <textarea name="message" placeholder="Message" required 
+                  className="form-element h-48">
+        </textarea>
       </div>
 
-      <div>
-        <input type="submit" value="Send" className="my-4 px-12 font-bold rounded bg-pink-100 border border-pink-700 hover:bg-pink-200" />
+      <div className="form-div">
+        <input type="submit" value="Send" 
+              className="my-2 py-1 font-bold rounded w-full
+              bg-green-100 border-2 border-green-700 hover:bg-green-200" />
       </div>
     </form>
   )
