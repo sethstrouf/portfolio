@@ -3,8 +3,7 @@ import React from 'react';
 const Card = ({ image, alt, summary, tech, pageUrl, codeUrl, children} ) => {
   return ( 
     <div className="my-6 h-48 mx-auto w-11/12 grid grid-cols-12 grid-rows-6 
-                    border border-gray-300 bg-white rounded-lg shadow-md 
-                    overflow-hidden">
+                  bg-white rounded-lg shadow-md overflow-hidden">
 
       <div className="col-span-4 row-span-6 aspect-w-2 aspect-h-3">
         <img src={`/img/${image}`} alt={alt}
