@@ -39,7 +39,7 @@ export default function App() {
 
         <MainHeader>About Me</MainHeader>
         <p className="mx-12 my-6 text-left">
-          After 12 years of teaching music, I'm following my other lifelong 
+          After a decade of teaching music, I'm following my other lifelong 
           passion of programming! I enjoy working in the full stack of
           web development and have most experience with Ruby on Rails and 
           React. I welcome all professional opportunities and challenges!
