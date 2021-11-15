@@ -16,8 +16,9 @@ const ContactForm = () => {
 
   return (
     <form id="contact-form" onSubmit={handleSubmit} 
-          className="mb-6 py-4 mx-auto bg-white shadow-lg rounded-lg text-gray-500
-                     w-10/12 border md:w-8/12 lg:w-7/12 xl:w-6/12 2xl:w-5/12">
+          className="my-12 py-4 mx-auto bg-white shadow-lg rounded-lg text-gray-500
+                     w-10/12 border md:w-8/12 lg:w-7/12 xl:w-6/12 2xl:w-6/12
+                     2xl:text-2xl">
 
       {/* form-div and input-element @applied in index.css */}
       <div className="form-div">
@@ -41,7 +42,7 @@ const ContactForm = () => {
 
       <div className="form-div">
         <input type="submit" value="Send" 
-              className="my-2 py-1 font-bold rounded w-full
+              className="my-2 py-2 font-bold rounded w-full
               bg-green-100 border-2 border-green-700 hover:bg-green-200" />
       </div>
     </form>
