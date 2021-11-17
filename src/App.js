@@ -17,12 +17,12 @@ export default function App() {
                           md:text-right md:py-12 2xl:py-16">
             <h1 className="name text-4xl
                            md:no-underline md:text-5xl md:pr-10
-                           xl:text-6xl 2xl:text-9xl">
+                           xl:text-7xl 2xl:text-9xl">
               <strong>Hi, I'm Seth!</strong>
             </h1>
           </div>
           <div className="pt-1 md:w-6/12 md:text-left">
-            <p className="text-xl md:pl-8 md:text-2xl xl:text-3xl 2xl:text-6xl">
+            <p className="text-xl md:pl-8 md:text-2xl xl:text-4xl 2xl:text-6xl">
               <em>a full-stack web developer</em>
             </p>
           </div>
@@ -43,7 +43,7 @@ export default function App() {
                     lg:text-xl xl:text-2xl 2xl:text-3xl">
             My two passions have always been music and programming! 
             After 12 years of teaching, I'm transitiong into web development 
-            as my main vocation. I enjoy working in the full stack of
+            as my career. I enjoy working in the full stack of
             web development and have most experience with Ruby on Rails and 
             React. I welcome all professional opportunities and challenges!
           </p>
