@@ -5,14 +5,16 @@ const Card = ({ image, alt, summary, tech, pageUrl, codeUrl, children} ) => {
     <div className="h-48 lg:h-60 xl:h-72
                     mx-auto grid grid-cols-12 grid-rows-6 
                     w-11/12 sm:w-10/12 md:w-9/12 lg:w-9/12
-                  bg-white rounded-lg shadow-lg overflow-hidden
+                  bg-white rounded shadow-md overflow-hidden
                     border border-gray-200
                     text-sm sm:text-base md:text-lg lg:text-xl xl:text-2xl
                     2xl:text-3xl">
 
       <div className="col-span-4 row-span-6 aspect-w-2 aspect-h-3">
-        <img src={`/img/${image}`} alt={alt}
-             className="object-cover"></img>
+        <a href={pageUrl}>
+          <img src={`/img/${image}`} alt={alt}
+              className="object-cover h-full"></img>
+        </a>
       </div>
 
       <div className="col-span-8 row-span-1 text-xl bg-green-700 text-gray-50
