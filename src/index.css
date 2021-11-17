@@ -1,11 +1,11 @@
-@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Pacifico&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Shrikhand&display=swap');
 
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
 .name {
-  font-family: 'Lobster', cursive;
+  font-family: 'Shrikhand', cursive;
   text-decoration: underline;
   text-decoration-color: #34D399;
 }

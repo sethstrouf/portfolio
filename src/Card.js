@@ -41,7 +41,7 @@ const Card = ({ image, alt, summary, tech, pageUrl, codeUrl, children} ) => {
                       border-r-2 border-gray-100 hover:bg-green-100 cursor-pointer
                       underline text-green-700">
         <p>
-          <a href={pageUrl}>Link to Site</a>
+          <a href={pageUrl} className="font-bold">Link to Site</a>
         </p>
       </div>
 
@@ -49,7 +49,7 @@ const Card = ({ image, alt, summary, tech, pageUrl, codeUrl, children} ) => {
                       hover:bg-green-100 cursor-pointer
                       underline text-green-700">
         <p>
-        <a href={codeUrl}>Go to Code</a>
+        <a href={codeUrl} className="font-bold">Go to Code</a>
         </p>
       </div>
       

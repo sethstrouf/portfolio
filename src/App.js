@@ -5,7 +5,7 @@ import Card from './Card';
 
 export default function App() {
   return (
-    <div className="min-h-screen m-auto bg-gray-50
+    <div className="min-h-screen m-auto bg-gray-100
                   text-gray-700 text-center">
 
       <header>
@@ -42,7 +42,7 @@ export default function App() {
           <p className="mx-12 text-left text-sm sm:text-base md:text-lg 
                     lg:text-xl xl:text-2xl 2xl:text-3xl">
             My two passions have always been music and programming! 
-            After 12 years of teaching, I'm transitiong into web development 
+            After 12 years of teaching, I'm transitioning into web development 
             as my career. I enjoy working in the full stack of
             web development and have most experience with Ruby on Rails and 
             React. I welcome all professional opportunities and challenges!
