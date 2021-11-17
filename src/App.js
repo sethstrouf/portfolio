@@ -49,8 +49,8 @@ export default function App() {
           </p>
 
         <MainHeader>Projects</MainHeader>
-        <div className="flex flex-row flex-wrap py-12 px-12 gap-y-24
-                        lg:gap-y-36">
+        <div className="flex flex-row flex-wrap py-12 px-2 gap-y-24
+                        md:gap-y-36 xl:gap-y-48">
           <Card
             image="blog.png"
             alt="Blog project"
