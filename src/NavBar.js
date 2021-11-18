@@ -7,11 +7,6 @@ const NavBar = ({ itemStyle }) => {
                      flex justify-end items-center py-2 xl:py-4 px-4 space-x-4
                      md:space-x-6 xl:space-x-8 2xl:space-x-12
                      md:text-lg xl:text-xl 2xl:text-3xl">
-      <p 
-        className="text-gray-50 flex-1 text-left hover:none 
-                   text-xl md:text-2xl xl:text-4xl 2xl:text-5xl">
-        <strong>Seth Strouf</strong>
-      </p>
       <NavItem 
         itemStyle={itemStyle}
         faStyle="fas"
