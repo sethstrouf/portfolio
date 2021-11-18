@@ -54,7 +54,7 @@ export default function App() {
           <Card
             image="blog.png"
             alt="Blog project"
-            summary="A recreation of my wife's blog"
+            summary="Recreation of a portfolio/blog built on SquareSpace"
             tech="Ruby on Rails, CSS/SASS, Authentication &
                   Authorization, AWS Image Hosting"
             pageUrl="https://www.hannahbauer.me"
