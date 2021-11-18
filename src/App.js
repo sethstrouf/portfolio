@@ -38,14 +38,21 @@ export default function App() {
 
       <main>
         <MainHeader>About</MainHeader>
-          <p className="mx-12 text-left text-sm sm:text-base md:text-lg 
+        <div className="mx-12 text-left text-sm sm:text-base md:text-lg 
                     lg:text-xl xl:text-2xl 2xl:text-3xl">
+          <p>
             My two passions have always been music and programming.
             After 12 years of teaching, I'm transitioning into web development 
             as my career. While I enjoy working in the full stack of
             web development, most of my experience is with Ruby on Rails and 
             React.
           </p>
+          <p className="pt-8">
+            Outside of work, I enjoy spending time with my wife and two
+            cats and watching Husker games with friends. I also love playing
+            video games including indies, simulators, and the occasional RTS. 
+          </p>
+          </div>
 
         <MainHeader>Projects</MainHeader>
         <div className="flex flex-row flex-wrap py-12 px-2 gap-y-24
