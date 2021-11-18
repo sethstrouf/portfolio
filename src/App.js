@@ -29,10 +29,11 @@ export default function App() {
         </div>
           <p className="md:text-lg xl:text-xl">
             <a href="https://drive.google.com/file/d/1ge77AXAoAvWQNTWVLrRyusPm516Vs70E/view?usp=sharing"
-                className="py-0.5 2xl:py-2 px-4 md:px-6 xl:px-8 2xl:px-12 
-                          rounded bg-yellow-100 border-4 border-yellow-700 
-                          border-double hover:bg-yellow-200 2xl:border-8 2xl:text-3xl">
-              View my resume!
+                className="py-1 px-4 rounded bg-green-100 border-2
+                         border-green-700 hover:bg-green-200  font-bold
+                          md:py-2 md:px-6 md:text-xl
+                          xl:px-8 2xl:text-3xl 2xl:border-4">
+              Resume
             </a>
           </p>
       </header>
