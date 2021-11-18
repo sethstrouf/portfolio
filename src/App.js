@@ -6,7 +6,7 @@ import Card from './Card';
 export default function App() {
   return (
     <div className="min-h-screen m-auto bg-gray-100
-                  text-gray-700 text-center">
+                  text-gray-700 text-center typography">
 
       <header>
         <NavBar itemStyle="text-gray-50 hover:text-green-200" />
@@ -23,29 +23,27 @@ export default function App() {
           </div>
           <div className="pt-1 md:w-6/12 md:text-left">
             <p className="text-xl md:pl-8 md:text-2xl xl:text-4xl 2xl:text-6xl">
-              <em>a full-stack web developer</em>
+              a full-stack web developer
             </p>
           </div>
         </div>
           <p className="md:text-lg xl:text-xl">
             <a href="https://drive.google.com/file/d/1ge77AXAoAvWQNTWVLrRyusPm516Vs70E/view?usp=sharing"
-                className="py-1 px-4 rounded bg-green-100 border-2
-                         border-green-700 hover:bg-green-200  font-bold
-                          md:py-2 md:px-6 md:text-xl
-                          xl:px-8 2xl:text-3xl 2xl:border-4">
+                className="py-1 px-4 rounded bg-green-400 hover:bg-green-300  
+                          font-bold md:py-2 md:px-6 md:text-xl xl:px-8 2xl:text-3xl">
               Resume
             </a>
           </p>
       </header>
 
       <main>
-        <MainHeader>About Me</MainHeader>
+        <MainHeader>About</MainHeader>
           <p className="mx-12 text-left text-sm sm:text-base md:text-lg 
                     lg:text-xl xl:text-2xl 2xl:text-3xl">
             My two passions have always been music and programming.
             After 12 years of teaching, I'm transitioning into web development 
-            as my career. I enjoy working in the full stack of
-            web development and have most experience with Ruby on Rails and 
+            as my career. While I enjoy working in the full stack of
+            web development, most of my experience is with Ruby on Rails and 
             React.
           </p>
 

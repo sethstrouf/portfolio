@@ -2,14 +2,14 @@ import React from 'react';
 
 const Card = ({ image, alt, summary, tech, pageUrl, codeUrl, optUrl, children} ) => {
   return ( 
-    <div className="h-48 lg:h-60 xl:h-72
+    <div className="h-48 lg:h-60 xl:h-84
                     mx-auto grid grid-cols-12 grid-rows-6 
                     w-11/12 sm:w-10/12 md:w-9/12 lg:w-9/12
                   bg-white rounded-md shadow-md overflow-hidden
                     text-sm sm:text-base md:text-lg lg:text-xl xl:text-2xl
                     2xl:text-3xl hover:shadow-xl hover:scale-105 transform">
 
-      <div className="col-span-4 row-span-6 aspect-w-2 aspect-h-3">
+      <div className="col-span-4 row-span-6 aspect-w-2 aspect-h-3 border-r-2 border-gray-500 pr-2">
         <a href={pageUrl}>
           <img src={`/img/${image}`} alt={alt}
               className="object-cover h-full"></img>
@@ -25,21 +25,25 @@ const Card = ({ image, alt, summary, tech, pageUrl, codeUrl, optUrl, children} )
 
       <div className="col-span-8 row-span-2 flex justify-center items-center ">
         <p>
-          <em>{summary} </em>
-          <a href={optUrl} className="underline hover:text-gray-500">{optUrl}</a>
+          {summary}
+        </p>
+        <p>
+          <a href={optUrl} className="underline hover:text-gray-500 
+                                      text-sm 2xl:text-xl">
+            {optUrl}
+          </a>
         </p>
       </div>
 
-
       <div className="col-span-8 row-span-2 px-0.5
                       flex flex-col justify-center items-center">
-        <p className="underline font-bold">Tech Used</p>
-        <p>{tech}</p>
+
+        <p><em>{tech}</em></p>
       </div>
 
       <div className="col-span-4 row-span-1 flex justify-center items-center
-                      border-r-2 border-gray-100 hover:bg-green-100 cursor-pointer
-                      underline text-green-700">
+                      hover:bg-green-100 cursor-pointer
+                       text-green-700">
         <p>
           <a href={pageUrl} className="font-bold">Link to Site</a>
         </p>
@@ -47,7 +51,7 @@ const Card = ({ image, alt, summary, tech, pageUrl, codeUrl, optUrl, children} )
 
       <div className="col-span-4 row-span-1 flex justify-center items-center
                       hover:bg-green-100 cursor-pointer
-                      underline text-green-700">
+                       text-green-700">
         <p>
         <a href={codeUrl} className="font-bold">Go to Code</a>
         </p>

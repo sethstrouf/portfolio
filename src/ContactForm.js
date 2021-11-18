@@ -43,8 +43,8 @@ const ContactForm = () => {
 
       <div className="form-div">
         <input type="submit" value="Send" 
-              className="my-2 py-2 font-bold rounded w-full
-              bg-green-100 border-2 border-green-700 hover:bg-green-200" />
+              className="py-1 px-4 w-full rounded bg-green-400 hover:bg-green-300  
+              font-bold md:py-2 md:px-6 md:text-xl xl:px-8 2xl:text-3xl text-gray-700" />
       </div>
     </form>
   )

@@ -1,11 +1,16 @@
-@import url('https://fonts.googleapis.com/css2?family=Shrikhand&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montagu+Slab:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400&display=swap');
 
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
+.typography {
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
 .name {
-  font-family: 'Shrikhand', cursive;
+  font-family: 'Montagu Slab', serif;
   text-decoration: underline;
   text-decoration-color: #34D399;
 }
