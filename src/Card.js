@@ -1,6 +1,6 @@
 import React from 'react';
 
-const Card = ({ image, alt, summary, tech, pageUrl, codeUrl, children} ) => {
+const Card = ({ image, alt, summary, tech, pageUrl, codeUrl, optUrl, children} ) => {
   return ( 
     <div className="h-48 lg:h-60 xl:h-72
                     mx-auto grid grid-cols-12 grid-rows-6 
@@ -17,19 +17,21 @@ const Card = ({ image, alt, summary, tech, pageUrl, codeUrl, children} ) => {
       </div>
 
       <div className="col-span-8 row-span-1 text-xl flex justify-center items-center 
-                      sm:text-xl md:text-2xl lg:text-3xl xl:text-3xl 2xl:text-4xl">
+                      sm:text-lg md:text-xl lg:text-2xl xl:text-2xl 2xl:text-3xl">
         <p>
           <strong>{children}</strong>
         </p>
       </div>
 
-      <div className="col-span-8 row-span-1 pt-2">
+      <div className="col-span-8 row-span-2 flex justify-center items-center ">
         <p>
-          <em>{summary}</em>
+          <em>{summary} </em>
+          <a href={optUrl} className="underline hover:text-gray-500">{optUrl}</a>
         </p>
       </div>
 
-      <div className="col-span-8 row-span-3 px-1
+
+      <div className="col-span-8 row-span-2 px-0.5
                       flex flex-col justify-center items-center">
         <p className="underline font-bold">Tech Used</p>
         <p>{tech}</p>

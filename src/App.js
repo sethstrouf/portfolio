@@ -56,10 +56,10 @@ export default function App() {
             image="blog.png"
             alt="Blog project"
             summary="Recreation of a portfolio/blog built on SquareSpace"
-            tech="Ruby on Rails, CSS/SASS, Authentication &
-                  Authorization, AWS Image Hosting"
+            tech="Ruby on Rails, Authentication/Authorization, AWS Image Hosting"
             pageUrl="https://www.hannahbauer.me"
-            codeUrl="https://github.com/sethstrouf/blog">
+            codeUrl="https://github.com/sethstrouf/blog"
+            optUrl="https://hannahbauer.com/">
             Blog
           </Card>
 
