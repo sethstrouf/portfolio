@@ -42,11 +42,11 @@ export default function App() {
         <MainHeader>About Me</MainHeader>
           <p className="mx-12 text-left text-sm sm:text-base md:text-lg 
                     lg:text-xl xl:text-2xl 2xl:text-3xl">
-            My two passions have always been music and programming! 
+            My two passions have always been music and programming.
             After 12 years of teaching, I'm transitioning into web development 
             as my career. I enjoy working in the full stack of
             web development and have most experience with Ruby on Rails and 
-            React. I welcome all professional opportunities and challenges!
+            React.
           </p>
 
         <MainHeader>Projects</MainHeader>
