@@ -7,7 +7,7 @@ const Card = ({ image, alt, summary, tech, pageUrl, codeUrl, optUrl, children} )
                     w-11/12 sm:w-10/12 md:w-9/12 lg:w-9/12
                   bg-white rounded-md shadow-md overflow-hidden
                     text-sm sm:text-base md:text-lg lg:text-xl xl:text-2xl
-                    2xl:text-3xl">
+                    2xl:text-3xl hover:shadow-xl hover:scale-105 transform">
 
       <div className="col-span-4 row-span-6 aspect-w-2 aspect-h-3">
         <a href={pageUrl}>
