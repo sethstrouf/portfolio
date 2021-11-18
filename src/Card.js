@@ -6,7 +6,6 @@ const Card = ({ image, alt, summary, tech, pageUrl, codeUrl, children} ) => {
                     mx-auto grid grid-cols-12 grid-rows-6 
                     w-11/12 sm:w-10/12 md:w-9/12 lg:w-9/12
                   bg-white rounded-md shadow-md overflow-hidden
-                    border border-gray-300
                     text-sm sm:text-base md:text-lg lg:text-xl xl:text-2xl
                     2xl:text-3xl">
 
@@ -17,9 +16,8 @@ const Card = ({ image, alt, summary, tech, pageUrl, codeUrl, children} ) => {
         </a>
       </div>
 
-      <div className="col-span-8 row-span-1 text-xl bg-green-700 text-gray-50
-                      flex justify-center items-center border-b-2 border-green-400
-                      sm:text-xl md:text-2xl lg:text-3xl xl:text-4xl xl:border-b-4">
+      <div className="col-span-8 row-span-1 text-xl flex justify-center items-center 
+                      sm:text-xl md:text-2xl lg:text-3xl xl:text-3xl 2xl:text-4xl">
         <p>
           <strong>{children}</strong>
         </p>
