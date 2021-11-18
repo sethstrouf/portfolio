@@ -9,7 +9,7 @@ export default function App() {
                   text-gray-700 text-center typography">
 
       <header>
-        <NavBar itemStyle="text-gray-50 hover:text-green-200" />
+        <NavBar />
         
         <div className="my-4 md:flex md:justify-center md:items-center 
                         md:my-12 2xl:my-24">
