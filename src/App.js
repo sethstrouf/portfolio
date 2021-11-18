@@ -31,7 +31,7 @@ export default function App() {
             <a href="https://drive.google.com/file/d/1ge77AXAoAvWQNTWVLrRyusPm516Vs70E/view?usp=sharing"
                 className="py-1 px-4 rounded bg-green-400 hover:bg-green-300  
                           font-bold md:py-2 md:px-6 md:text-xl xl:px-8 2xl:text-3xl">
-              Resume
+              Resumé
             </a>
           </p>
       </header>
