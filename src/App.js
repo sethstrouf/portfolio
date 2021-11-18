@@ -15,7 +15,7 @@ export default function App() {
                         md:my-12 2xl:my-24">
           <div className="pt-4 md:border-r-4 md:border-green-400 md:w-6/12 
                           md:text-right md:py-12 2xl:py-16">
-            <h1 className="name text-4xl
+            <h1 className="name serif text-4xl
                            md:no-underline md:text-5xl md:pr-10
                            xl:text-7xl 2xl:text-9xl">
               <strong>Hi, I'm Seth!</strong>

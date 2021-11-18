@@ -9,8 +9,11 @@
   font-family: 'Source Sans Pro', sans-serif;
 }
 
-.name {
+.serif {
   font-family: 'Montagu Slab', serif;
+}
+
+.name {
   text-decoration: underline;
   text-decoration-color: #34D399;
 }
