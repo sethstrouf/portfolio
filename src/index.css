@@ -1,21 +1,21 @@
-@import url('https://fonts.googleapis.com/css2?family=Montagu+Slab:wght@700&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Montagu+Slab:wght@700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400&display=swap");
 
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
 .typography {
-  font-family: 'Source Sans Pro', sans-serif;
+  font-family: "Source Sans Pro", sans-serif;
 }
 
 .serif {
-  font-family: 'Montagu Slab', serif;
+  font-family: "Montagu Slab", serif;
 }
 
 .name {
   text-decoration: underline;
-  text-decoration-color: #34D399;
+  text-decoration-color: #34d399;
 }
 
 .scale-hover:hover {
