@@ -4,12 +4,19 @@ const ContactForm = () => {
 
   const handleSubmit = (event) => {
     event.preventDefault();
+
+    const notification = document.getElementById('notification')
     
     window.emailjs.sendForm('gmail_service', 'contact_template', event.target)
     .then(function(response) {
-       console.log('SUCCESS!', response.status, response.text);
+       console.log(response.status, response.text);
+       document.getElementById('contact-form').reset()
+       notification.classList.add('text-green-500')
+       notification.textContent = "MESSAGE DELIVERED!"
     }, function(error) {
-       console.log('FAILED...', error);
+       console.log(error);
+       notification.classList.add('text-red-500')
+       notification.textContent = "Sorry, the message was not delivered."
     });
     
   }
@@ -21,6 +28,7 @@ const ContactForm = () => {
                      border border-gray-400 hover:shadow-lg
                      w-10/12 md:w-8/12 lg:w-7/12 xl:w-6/12">
       {/* form-div and input-element @applied in index.css */}
+      <div id="notification" className="font-bold"></div>
       <div className="form-div">
         <label htmlFor="user_name">Name</label>
         <input type="text" name="user_name" required 
