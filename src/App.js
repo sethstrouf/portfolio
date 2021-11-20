@@ -1,10 +1,8 @@
 import NavBar from './NavBar';
 import MainHeader from './MainHeader';
 import ContactForm from './ContactForm';
-import Card from './Card';
-import CardCopy from './CardCopy'
-import CardCopyCopy from './CardCopyCopy'
-import CardCopyCopyRightImage from './CardCopyCopyRightImage';
+import CardLeft from './CardLeft'
+import CardRight from './CardRight';
 
 export default function App() {
   return (
@@ -61,8 +59,8 @@ export default function App() {
         <div className="flex flex-row flex-wrap py-12 xl:py-24 
                         px-2 gap-y-24 xl:gap-y-36">
 
-          <CardCopyCopy
-            image="blog_fade_right.png"
+          <CardLeft
+            image="blog.png"
             alt="Blog project"
             summary="Re-creation of a portfolio/blog built on SquareSpace"
             tech="Ruby on Rails, Authentication &amp; Authorization, AWS Image Hosting"
@@ -70,51 +68,19 @@ export default function App() {
             codeUrl="https://github.com/sethstrouf/blog"
             optUrl="www.hannahbauer.com">
             Blog
-          </CardCopyCopy>
+          </CardLeft>
 
-          <CardCopyCopyRightImage
-            image="blog_fade_left.png"
-            alt="Blog project"
-            summary="Recreation of a portfolio/blog built on SquareSpace"
-            tech="Ruby on Rails, Authentication &amp; Authorization, AWS Image Hosting"
-            pageUrl="https://www.hannahbauer.me"
-            codeUrl="https://github.com/sethstrouf/blog"
-            optUrl="www.hannahbauer.com">
-            BLOG 2
-          </CardCopyCopyRightImage>
-
-          <CardCopyCopy
-            image="blog2.png"
-            alt="Blog project"
-            summary="Re-creation of a portfolio/blog built on SquareSpace"
-            tech="Ruby on Rails, Authentication &amp; Authorization, AWS Image Hosting"
-            pageUrl="https://www.hannahbauer.me"
-            codeUrl="https://github.com/sethstrouf/blog"
-            optUrl="www.hannahbauer.com">
-            Blog
-          </CardCopyCopy>
-
-          <CardCopyCopyRightImage
-            image="blog2.png"
-            alt="Blog project"
-            summary="Recreation of a portfolio/blog built on SquareSpace"
-            tech="Ruby on Rails, Authentication &amp; Authorization, AWS Image Hosting"
-            pageUrl="https://www.hannahbauer.me"
-            codeUrl="https://github.com/sethstrouf/blog">
-            BLOG 2
-          </CardCopyCopyRightImage>
-
-{/*           <Card
+          <CardRight
             image=""
             alt="Weather project"
-            summary="A weather app using an API"
-            tech="CSS, API, JSON"
-            pageUrl="https://www.hannahbauer.me"
-            codeUrl="https://github.com/sethstrouf/blog">
-            Weather API
-          </Card> */}
+            summary="A weather app"
+            tech="API, JSON"
+            pageUrl="#"
+            codeUrl="#">
+            Weather (Coming Soon)
+          </CardRight>
 
-          <CardCopyCopy
+          <CardLeft
             image="memorycards.png"
             alt="Memory cards project"
             summary="A memory game!"
@@ -122,9 +88,9 @@ export default function App() {
             pageUrl="https://sethstrouf.github.io/memory-cards/"
             codeUrl="https://github.com/sethstrouf/memory-cards">
             Memory Cards
-          </CardCopyCopy>
+          </CardLeft>
 
-          <CardCopyCopyRightImage
+          <CardRight
             image="calculator.png"
             alt="Calculator project"
             summary="One of my first JS projects"
@@ -132,9 +98,9 @@ export default function App() {
             pageUrl="https://sethstrouf.github.io/calculator/"
             codeUrl="https://github.com/sethstrouf/calculator">
             Calculator
-          </CardCopyCopyRightImage>
+          </CardRight>
 
-          <CardCopyCopy
+          <CardLeft
             image="etchasketch.png"
             alt="Etch a sketch project"
             summary="Customizable grid size and colors"
@@ -142,9 +108,9 @@ export default function App() {
             pageUrl="https://sethstrouf.github.io/etch-a-sketch/"
             codeUrl="https://github.com/sethstrouf/etch-a-sketch">
             Etch-A-Sketch
-          </CardCopyCopy>
+          </CardLeft>
 
-          <CardCopyCopyRightImage
+          <CardRight
             image="rps.png"
             alt="Rock, Paper, Scissors project"
             summary="You vs. the computer"
@@ -152,7 +118,7 @@ export default function App() {
             pageUrl="https://sethstrouf.github.io/rock-paper-scissors/"
             codeUrl="https://github.com/sethstrouf/rock-paper-scissors">
             Rock Paper Scissors
-          </CardCopyCopyRightImage>
+          </CardRight>
         </div>
 
         <MainHeader>Contact Me</MainHeader>

@@ -1,6 +1,6 @@
 import React from 'react';
 
-const CardCopyCopyRightImage = ({ image, alt, summary, tech, pageUrl, codeUrl, optUrl, children} ) => {
+const CardRight = ({ image, alt, summary, tech, pageUrl, codeUrl, optUrl, children} ) => {
 
   const renderSummary = () => {
     if (optUrl) {
@@ -81,4 +81,4 @@ const CardCopyCopyRightImage = ({ image, alt, summary, tech, pageUrl, codeUrl, o
   )
 }
 
-export default CardCopyCopyRightImage;
+export default CardRight;
