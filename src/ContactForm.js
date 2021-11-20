@@ -9,12 +9,10 @@ const ContactForm = () => {
     
     window.emailjs.sendForm('gmail_service', 'contact_template', event.target)
     .then(function(response) {
-       console.log(response.status, response.text);
        document.getElementById('contact-form').reset()
        notification.classList.add('text-green-500')
        notification.textContent = "MESSAGE DELIVERED!"
     }, function(error) {
-       console.log(error);
        notification.classList.add('text-red-500')
        notification.textContent = "Sorry, the message was not delivered."
     });
