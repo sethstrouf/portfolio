@@ -42,16 +42,21 @@ export default function App() {
         <div className="mt-12 mx-12 md:mx-16 xl:mx-24 text-left">
           <p>
             My two passions have always been music and programming.
-            After 12 years of teaching, I'm transitioning into web development 
-            as my career. While I enjoy working in the full stack of
-            web development, most of my experience is with Ruby on Rails and 
+            After 12 years of teaching, I'm transitioning to web development 
+            as my career. I enjoy working in the full stack of
+            web development and have most experience with Ruby on Rails and 
             React.
           </p>
-          <p className="mt-12">
+          <p className="mt-8">
             Outside of work, I enjoy time with my wife and two
-            cats and watching Husker games with friends. I also spend too much
-            time playing video games--mostly indies, simulators, and the
-            occasional RTS.  
+            cats and Husker games with friends. I also enjoy
+            gaming&#8211;mostly indies, simulators, and the occasional
+            RTS&#8211;and maintain a YouTube channel recording tutorials and 
+            Let's Plays (
+              <a href="youtube.com/moose2006lp" 
+                 className="hover:text-gray-500 focused underline">
+                youtube.com/moose2006lp
+              </a>). 
           </p>
           </div>
 

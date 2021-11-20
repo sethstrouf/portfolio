@@ -13,7 +13,7 @@ const CardLeft = ({ image, alt, summary, tech, pageUrl, codeUrl, optUrl, childre
             </div>
             <div className="col-span-8 row-span-1  flex justify-center items-center">
               <p>
-                (<a href={optUrl} className="hover:text-gray-500 focused">
+                (<a href={optUrl} className="hover:text-gray-500 focused underline">
                   {optUrl}
                 </a>)
               </p>
