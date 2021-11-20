@@ -70,7 +70,7 @@ export default function App() {
             Blog
           </CardLeft>
 
-          <CardRight
+{/*           <CardRight
             image=""
             alt="Weather project"
             summary="A weather app"
@@ -78,9 +78,9 @@ export default function App() {
             pageUrl="#"
             codeUrl="#">
             Weather (Coming Soon)
-          </CardRight>
+          </CardRight> */}
 
-          <CardLeft
+          <CardRight
             image="memorycards.png"
             alt="Memory cards project"
             summary="A memory game!"
@@ -88,9 +88,9 @@ export default function App() {
             pageUrl="https://sethstrouf.github.io/memory-cards/"
             codeUrl="https://github.com/sethstrouf/memory-cards">
             Memory Cards
-          </CardLeft>
+          </CardRight>
 
-          <CardRight
+          <CardLeft
             image="calculator.png"
             alt="Calculator project"
             summary="One of my first JS projects"
@@ -98,9 +98,9 @@ export default function App() {
             pageUrl="https://sethstrouf.github.io/calculator/"
             codeUrl="https://github.com/sethstrouf/calculator">
             Calculator
-          </CardRight>
+          </CardLeft>
 
-          <CardLeft
+          <CardRight
             image="etchasketch.png"
             alt="Etch a sketch project"
             summary="Customizable grid size and colors"
@@ -108,9 +108,9 @@ export default function App() {
             pageUrl="https://sethstrouf.github.io/etch-a-sketch/"
             codeUrl="https://github.com/sethstrouf/etch-a-sketch">
             Etch-A-Sketch
-          </CardLeft>
+          </CardRight>
 
-          <CardRight
+          <CardLeft
             image="rps.png"
             alt="Rock, Paper, Scissors project"
             summary="You vs. the computer"
@@ -118,7 +118,7 @@ export default function App() {
             pageUrl="https://sethstrouf.github.io/rock-paper-scissors/"
             codeUrl="https://github.com/sethstrouf/rock-paper-scissors">
             Rock Paper Scissors
-          </CardRight>
+          </CardLeft>
         </div>
 
         <MainHeader>Contact Me</MainHeader>
