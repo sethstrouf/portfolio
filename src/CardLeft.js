@@ -40,7 +40,7 @@ const CardLeft = ({ image, alt, summary, tech, pageUrl, codeUrl, optUrl, childre
       <div className="col-span-4 row-span-6">
         <a href={pageUrl}>
           <img src={`/img/${image}`}
-               className="w-full h-full object-top object-cover"
+               className="w-full h-full object-top object-cover filter hover:brightness-110"
                alt={alt} />
         </a>
       </div>

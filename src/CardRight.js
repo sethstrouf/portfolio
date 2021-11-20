@@ -72,7 +72,8 @@ const CardRight = ({ image, alt, summary, tech, pageUrl, codeUrl, optUrl, childr
       <div className="col-end-13 col-span-4 row-start-1 row-span-6">
         <a href={pageUrl}>
           <img src={`/img/${image}`}
-               className="w-full h-full object-top object-cover"
+               className="w-full h-full object-top object-cover
+                          filter hover:brightness-110"
                alt={alt} />
         </a>
       </div>
