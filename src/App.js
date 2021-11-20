@@ -77,7 +77,7 @@ export default function App() {
             Blog
           </CardLeft>
 
-{/*           <CardRight
+{/*       <CardRight
             image=""
             alt="Weather project"
             summary="A weather app"
