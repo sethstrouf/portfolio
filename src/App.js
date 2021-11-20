@@ -6,7 +6,7 @@ import CardRight from './CardRight';
 
 export default function App() {
   return (
-    <div className="min-h-screen m-auto bg-gray-100
+    <div className="min-h-screen m-auto bg-gray-100 
                   text-gray-700 text-center typography">
 
       <header>
