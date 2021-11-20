@@ -6,32 +6,32 @@ import CardRight from './CardRight';
 
 export default function App() {
   return (
-    <div className="min-h-screen m-auto bg-gray-100 
-                  text-gray-700 text-center typography">
+    <div className="min-h-screen m-auto bg-gray-100 text-gray-700 text-center 
+                    typography md:text-lg lg:text-xl xl:text-2xl 2xl:text-3xl">
 
       <header>
         <NavBar />
-        
         <div className="my-4 md:flex md:justify-center md:items-center 
                         md:my-12 2xl:my-24">
           <div className="pt-4 md:border-r-4 md:border-green-400 md:w-6/12 
-                          md:text-right md:py-12 2xl:py-16">
+                          md:text-right md:py-12 2xl:py-24">
             <h1 className="name serif text-4xl
-                           md:no-underline md:text-5xl md:pr-10
+                           md:no-underline md:pr-10 md:text-5xl lg:text-6xl
                            xl:text-7xl 2xl:text-9xl">
               <strong>Hi, I'm Seth!</strong>
             </h1>
           </div>
           <div className="pt-1 md:w-6/12 md:text-left">
-            <p className="text-xl md:pl-8 md:text-2xl xl:text-4xl 2xl:text-6xl">
+            <p className="text-xl md:pl-8 md:text-2xl lg:3xl 
+                          xl:text-4xl 2xl:text-6xl">
               a full-stack web developer
             </p>
           </div>
         </div>
-          <p className="md:text-lg xl:text-xl">
+          <p>
             <a href="https://drive.google.com/file/d/1ge77AXAoAvWQNTWVLrRyusPm516Vs70E/view?usp=sharing"
-                className="py-1 px-4 rounded bg-green-400 hover:bg-green-300 focused 
-                          font-bold md:py-2 md:px-6 md:text-xl xl:px-8 2xl:text-3xl">
+                className="rounded bg-green-400 hover:bg-green-300 focused 
+                          font-bold py-1 px-4 md:py-2 md:px-6 xl:px-8 text-gray-800">
               Resumé
             </a>
           </p>
@@ -39,8 +39,7 @@ export default function App() {
 
       <main>
         <MainHeader>About</MainHeader>
-        <div className="mx-12 text-left text-sm sm:text-base md:text-lg 
-                    lg:text-xl xl:text-2xl 2xl:text-3xl">
+        <div className="mt-12 mx-12 md:mx-16 xl:mx-24 text-left">
           <p>
             My two passions have always been music and programming.
             After 12 years of teaching, I'm transitioning into web development 
@@ -48,15 +47,16 @@ export default function App() {
             web development, most of my experience is with Ruby on Rails and 
             React.
           </p>
-          <p className="pt-8">
-            Outside of work, I enjoy spending time with my wife and two
-            cats and watching Husker games with friends. I also love playing
-            video games including indies, simulators, and the occasional RTS. 
+          <p className="mt-12">
+            Outside of work, I enjoy time with my wife and two
+            cats and watching Husker games with friends. I also spend too much
+            time playing video games--mostly indies, simulators, and the
+            occasional RTS.  
           </p>
           </div>
 
         <MainHeader>Projects</MainHeader>
-        <div className="flex flex-row flex-wrap py-12 xl:py-24 
+        <div className="flex flex-col mt-12 xl:mt-24
                         px-2 gap-y-24 xl:gap-y-36">
 
           <CardLeft
