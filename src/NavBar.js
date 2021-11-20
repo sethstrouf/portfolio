@@ -1,5 +1,6 @@
 import React from 'react';
 import NavItem from './NavItem';
+import Pdf from './Resume.pdf';
 
 const NavBar = () => {
 
@@ -29,7 +30,7 @@ const NavBar = () => {
       <NavItem
         faStyle="fas"
         icon="file" 
-        link="https://drive.google.com/file/d/1ge77AXAoAvWQNTWVLrRyusPm516Vs70E/view?usp=sharing"
+        link={Pdf}
       />  
   </ul>
   )

@@ -3,6 +3,8 @@ import MainHeader from './MainHeader';
 import ContactForm from './ContactForm';
 import CardLeft from './CardLeft'
 import CardRight from './CardRight';
+import Pdf from './Resume.pdf';
+
 
 export default function App() {
   return (
@@ -29,7 +31,7 @@ export default function App() {
           </div>
         </div>
           <p>
-            <a href="https://drive.google.com/file/d/1ge77AXAoAvWQNTWVLrRyusPm516Vs70E/view?usp=sharing"
+            <a href={Pdf}
                 className="rounded bg-green-400 hover:bg-green-300 focused 
                           font-bold py-1 px-4 md:py-2 md:px-6 xl:px-8 text-gray-800">
               Resumé
