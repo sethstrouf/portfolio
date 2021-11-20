@@ -14,7 +14,7 @@ const NavBar = () => {
       <NavItem 
         faStyle="fab"
         icon="github" 
-        link="https://github.com/sethstrouf"
+        link="https://github.com/sethstrouf?tab=repositories"
        />
       <NavItem
         faStyle="fab"
