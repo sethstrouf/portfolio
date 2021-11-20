@@ -32,14 +32,14 @@ const CardCopyCopy = ({ image, alt, summary, tech, pageUrl, codeUrl, optUrl, chi
     <div className="h-48 lg:h-60 w-10/12 leading-none
                     mx-auto grid grid-cols-12 grid-rows-6
                   bg-white rounded-md  overflow-hidden
-                    border border-gray-400
+                  border-gray-400 shadow
                     text-sm sm:text-base md:text-lg lg:text-xl xl:text-2xl
                     2xl:text-3xl hover:shadow-lg scale-hover">
 
       <div className="col-span-4 row-span-6">
         <a href={pageUrl}>
           <img src={`/img/${image}`}
-               className="w-full object-top object-cover"
+               className="w-full h-full object-top object-cover"
                alt={alt} />
         </a>
       </div>

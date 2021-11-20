@@ -31,8 +31,7 @@ const CardCopyCopyRightImage = ({ image, alt, summary, tech, pageUrl, codeUrl, o
   return ( 
     <div className="h-48 lg:h-60 w-10/12 leading-none
                     mx-auto grid grid-cols-12 grid-rows-6
-                  bg-white rounded-md  overflow-hidden
-                    border border-gray-400
+                  bg-white rounded-md  overflow-hidden shadow
                     text-sm sm:text-base md:text-lg lg:text-xl xl:text-2xl
                     2xl:text-3xl hover:shadow-lg scale-hover">
 
@@ -71,10 +70,10 @@ const CardCopyCopyRightImage = ({ image, alt, summary, tech, pageUrl, codeUrl, o
         </p>
       </div>
       
-      <div className="col-end-13 col-span-4 row-start-1 row-span-6 border-l border-gray-400">
+      <div className="col-end-13 col-span-4 row-start-1 row-span-6">
         <a href={pageUrl}>
           <img src={`/img/${image}`}
-               className="w-full object-top object-cover"
+               className="w-full h-full object-top object-cover"
                alt={alt} />
         </a>
       </div>
