@@ -50,13 +50,13 @@ export default function App() {
           <p className="mt-8">
             Outside of work, I enjoy time with my wife and two
             cats and Husker games with friends. I also enjoy
-            gaming&#8211;mostly indies, simulators, and the occasional
-            RTS&#8211;and maintain a YouTube channel recording tutorials and 
-            Let's Plays (
-              <a href="youtube.com/moose2006lp" 
+            gaming&#8212;mostly indies, simulators, and the occasional
+            RTS&#8212;and maintain a&nbsp; 
+              <a href="https://www.youtube.com/moose2006lp" 
                  className="hover:text-gray-500 focused underline">
-                youtube.com/moose2006lp
-              </a>). 
+                YouTube channel
+              </a> 
+              &nbsp;recording tutorials and Let's Plays.
           </p>
           </div>
 
