@@ -13,7 +13,9 @@ const CardRight = ({ image, alt, summary, tech, pageUrl, codeUrl, optUrl, childr
             </div>
             <div className="col-start-1 col-span-8 row-span-1  flex justify-center items-center">
               <p>
-                (<a href={optUrl} className="hover:text-gray-500">{optUrl}</a>)
+                (<a href={optUrl} className="hover:text-gray-500 focused">
+                  {optUrl}
+                 </a>)
               </p>
             </div>
             </>
@@ -34,14 +36,6 @@ const CardRight = ({ image, alt, summary, tech, pageUrl, codeUrl, optUrl, childr
                   bg-white rounded-md overflow-hidden shadow
                     text-sm sm:text-base md:text-lg lg:text-xl xl:text-2xl
                     2xl:text-3xl hover:shadow-lg scale-hover">
-
-      <div className="col-end-13 col-span-4 row-start-1 row-span-6">
-        <a href={pageUrl}>
-          <img src={`/img/${image}`}
-               className="w-full h-full object-top object-cover"
-               alt={alt} />
-        </a>
-      </div>
 
       <div className="col-start-1 col-span-8 row-span-2 text-xl flex justify-center items-center 
                       serif text-green-700
@@ -64,17 +58,24 @@ const CardRight = ({ image, alt, summary, tech, pageUrl, codeUrl, optUrl, childr
                       hover:bg-green-100 cursor-pointer
                        text-green-700">
         <p>
-          <a href={pageUrl} className="font-bold">Go to Site</a>
+          <a href={pageUrl} className="font-bold focused">Go to Site</a>
         </p>
       </div>
 
       <div className="col-start-5 col-span-4 row-span-1 flex justify-center items-center
                       hover:bg-green-100 cursor-pointer text-green-700">
         <p>
-        <a href={codeUrl} className="font-bold">Go to Code</a>
+        <a href={codeUrl} className="font-bold focused">Go to Code</a>
         </p>
       </div>
-      
+
+      <div className="col-end-13 col-span-4 row-start-1 row-span-6">
+        <a href={pageUrl}>
+          <img src={`/img/${image}`}
+               className="w-full h-full object-top object-cover"
+               alt={alt} />
+        </a>
+      </div>
 
     </div>
   )

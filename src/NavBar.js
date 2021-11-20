@@ -6,9 +6,8 @@ const NavBar = () => {
 
   return (
     <ul className="bg-green-700 border-b-4 border-green-400 
-                     flex justify-end items-center py-2 xl:py-4 px-4 space-x-4
-                     md:space-x-6 xl:space-x-8 2xl:space-x-12
-                     md:text-lg xl:text-xl 2xl:text-3xl">
+                     flex justify-end items-center py-2 xl:py-4 px-4 
+                     md:text-lg lg:text-xl xl:text-2xl 2xl:text-3xl">
       <NavItem 
         itemStyle={itemStyle}
         faStyle="fas"

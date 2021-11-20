@@ -13,7 +13,9 @@ const CardLeft = ({ image, alt, summary, tech, pageUrl, codeUrl, optUrl, childre
             </div>
             <div className="col-span-8 row-span-1  flex justify-center items-center">
               <p>
-                (<a href={optUrl} className="hover:text-gray-500">{optUrl}</a>)
+                (<a href={optUrl} className="hover:text-gray-500 focused">
+                  {optUrl}
+                </a>)
               </p>
             </div>
             </>
@@ -64,14 +66,14 @@ const CardLeft = ({ image, alt, summary, tech, pageUrl, codeUrl, optUrl, childre
                       hover:bg-green-100 cursor-pointer
                        text-green-700">
         <p>
-          <a href={pageUrl} className="font-bold">Go to Site</a>
+          <a href={pageUrl} className="font-bold focused">Go to Site</a>
         </p>
       </div>
 
       <div className="col-span-4 row-span-1 flex justify-center items-center
                       hover:bg-green-100 cursor-pointer text-green-700">
         <p>
-        <a href={codeUrl} className="font-bold">Go to Code</a>
+        <a href={codeUrl} className="font-bold focused">Go to Code</a>
         </p>
       </div>
       
