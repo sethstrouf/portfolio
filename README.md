@@ -4,3 +4,4 @@
 - React
 - Tailwind CSS
 - EmailJS (Contact Form)
+- Enviromental Variables
