@@ -2,6 +2,9 @@ import NavBar from './NavBar';
 import MainHeader from './MainHeader';
 import ContactForm from './ContactForm';
 import Card from './Card';
+import CardCopy from './CardCopy'
+import CardCopyCopy from './CardCopyCopy'
+import CardCopyCopyRightImage from './CardCopyCopyRightImage';
 
 export default function App() {
   return (
@@ -55,18 +58,51 @@ export default function App() {
           </div>
 
         <MainHeader>Projects</MainHeader>
-        <div className="flex flex-row flex-wrap py-12 px-2 gap-y-24
-                        md:gap-y-36 xl:gap-y-48">
-          <Card
-            image="blog.png"
+        <div className="flex flex-row flex-wrap py-12 xl:py-24 
+                        px-2 gap-y-24 xl:gap-y-36">
+
+          <CardCopyCopy
+            image="blog_fade_right.png"
             alt="Blog project"
-            summary="Recreation of a portfolio/blog built on SquareSpace"
-            tech="Ruby on Rails, Authentication/Authorization, AWS Image Hosting"
+            summary="Re-creation of a portfolio/blog built on SquareSpace"
+            tech="Ruby on Rails, Authentication &amp; Authorization, AWS Image Hosting"
             pageUrl="https://www.hannahbauer.me"
             codeUrl="https://github.com/sethstrouf/blog"
-            optUrl="https://hannahbauer.com/">
+            optUrl="www.hannahbauer.com">
             Blog
-          </Card>
+          </CardCopyCopy>
+
+          <CardCopyCopyRightImage
+            image="blog_fade_left.png"
+            alt="Blog project"
+            summary="Recreation of a portfolio/blog built on SquareSpace"
+            tech="Ruby on Rails, Authentication &amp; Authorization, AWS Image Hosting"
+            pageUrl="https://www.hannahbauer.me"
+            codeUrl="https://github.com/sethstrouf/blog"
+            optUrl="www.hannahbauer.com">
+            BLOG 2
+          </CardCopyCopyRightImage>
+
+          <CardCopyCopy
+            image="blog2.png"
+            alt="Blog project"
+            summary="Re-creation of a portfolio/blog built on SquareSpace"
+            tech="Ruby on Rails, Authentication &amp; Authorization, AWS Image Hosting"
+            pageUrl="https://www.hannahbauer.me"
+            codeUrl="https://github.com/sethstrouf/blog"
+            optUrl="www.hannahbauer.com">
+            Blog
+          </CardCopyCopy>
+
+          <CardCopyCopyRightImage
+            image="blog2.png"
+            alt="Blog project"
+            summary="Recreation of a portfolio/blog built on SquareSpace"
+            tech="Ruby on Rails, Authentication &amp; Authorization, AWS Image Hosting"
+            pageUrl="https://www.hannahbauer.me"
+            codeUrl="https://github.com/sethstrouf/blog">
+            BLOG 2
+          </CardCopyCopyRightImage>
 
 {/*           <Card
             image=""
@@ -78,7 +114,7 @@ export default function App() {
             Weather API
           </Card> */}
 
-          <Card
+          <CardCopyCopy
             image="memorycards.png"
             alt="Memory cards project"
             summary="A memory game!"
@@ -86,9 +122,9 @@ export default function App() {
             pageUrl="https://sethstrouf.github.io/memory-cards/"
             codeUrl="https://github.com/sethstrouf/memory-cards">
             Memory Cards
-          </Card>
+          </CardCopyCopy>
 
-          <Card
+          <CardCopyCopyRightImage
             image="calculator.png"
             alt="Calculator project"
             summary="One of my first JS projects"
@@ -96,9 +132,9 @@ export default function App() {
             pageUrl="https://sethstrouf.github.io/calculator/"
             codeUrl="https://github.com/sethstrouf/calculator">
             Calculator
-          </Card>
+          </CardCopyCopyRightImage>
 
-          <Card
+          <CardCopyCopy
             image="etchasketch.png"
             alt="Etch a sketch project"
             summary="Customizable grid size and colors"
@@ -106,9 +142,9 @@ export default function App() {
             pageUrl="https://sethstrouf.github.io/etch-a-sketch/"
             codeUrl="https://github.com/sethstrouf/etch-a-sketch">
             Etch-A-Sketch
-          </Card>
+          </CardCopyCopy>
 
-          <Card
+          <CardCopyCopyRightImage
             image="rps.png"
             alt="Rock, Paper, Scissors project"
             summary="You vs. the computer"
@@ -116,7 +152,7 @@ export default function App() {
             pageUrl="https://sethstrouf.github.io/rock-paper-scissors/"
             codeUrl="https://github.com/sethstrouf/rock-paper-scissors">
             Rock Paper Scissors
-          </Card>
+          </CardCopyCopyRightImage>
         </div>
 
         <MainHeader>Contact Me</MainHeader>

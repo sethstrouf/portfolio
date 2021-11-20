@@ -18,6 +18,14 @@
   text-decoration-color: #34D399;
 }
 
+.site-gray {
+  background-color: #2d2d2d;
+}
+
+.scale-hover:hover {
+  transform: scale(1.01);
+}
+
 @layer components {
   .form-div {
     @apply text-left mx-auto w-10/12 ;
