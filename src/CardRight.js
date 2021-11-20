@@ -29,15 +29,21 @@ const CardRight = ({ image, alt, summary, tech, pageUrl, codeUrl, optUrl, childr
   }
 
   return ( 
-    <div className="h-48 lg:h-60 w-10/12 leading-none
+    <div className="h-48 lg:h-60 xl:h-72 w-10/12 leading-none
                     mx-auto grid grid-cols-12 grid-rows-6
-                  bg-white rounded-md  overflow-hidden shadow
+                  bg-white rounded-md overflow-hidden shadow
                     text-sm sm:text-base md:text-lg lg:text-xl xl:text-2xl
                     2xl:text-3xl hover:shadow-lg scale-hover">
 
+      <div className="col-end-13 col-span-4 row-start-1 row-span-6">
+        <a href={pageUrl}>
+          <img src={`/img/${image}`}
+               className="w-full h-full object-top object-cover"
+               alt={alt} />
+        </a>
+      </div>
 
-
-      <div className="col-start-1 col-span-8 row-span-1 text-xl flex justify-center items-center 
+      <div className="col-start-1 col-span-8 row-span-2 text-xl flex justify-center items-center 
                       serif text-green-700
                       sm:text-xl md:text-2xl lg:text-3xl xl:text-4xl 2xl:text-5xl">
         <p>
@@ -48,7 +54,7 @@ const CardRight = ({ image, alt, summary, tech, pageUrl, codeUrl, optUrl, childr
       {/* render one div or two based on optUrl */}
       {renderSummary()}
 
-      <div className="col-start-1 col-span-8 row-span-2 px-0.5 
+      <div className="col-start-1 col-span-8 row-span-1 px-0.5 
                       flex flex-col justify-center items-center">
 
         <p><em>{tech}</em></p>
@@ -63,20 +69,13 @@ const CardRight = ({ image, alt, summary, tech, pageUrl, codeUrl, optUrl, childr
       </div>
 
       <div className="col-start-5 col-span-4 row-span-1 flex justify-center items-center
-                      hover:bg-green-100 cursor-pointer
-                       text-green-700">
+                      hover:bg-green-100 cursor-pointer text-green-700">
         <p>
         <a href={codeUrl} className="font-bold">Go to Code</a>
         </p>
       </div>
       
-      <div className="col-end-13 col-span-4 row-start-1 row-span-6">
-        <a href={pageUrl}>
-          <img src={`/img/${image}`}
-               className="w-full h-full object-top object-cover"
-               alt={alt} />
-        </a>
-      </div>
+
     </div>
   )
 }
