@@ -16,8 +16,9 @@ const ContactForm = () => {
 
   return (
     <form id="contact-form" onSubmit={handleSubmit} 
-          className="my-12 xl:my-16 py-6 md:py-8 xl:py-12
-                     mx-auto bg-white shadow-lg rounded-md text-gray-500
+          className="my-12 xl:my-24 py-6 md:py-8 xl:py-12
+                     mx-auto bg-white rounded-md text-gray-500
+                     border border-gray-400 hover:shadow-lg
                      w-10/12 md:w-8/12 lg:w-7/12 xl:w-6/12">
       {/* form-div and input-element @applied in index.css */}
       <div className="form-div">
