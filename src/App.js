@@ -89,17 +89,17 @@ export default function App() {
             Blog
           </CardLeft>
 
-          {/*       <CardRight
-            image=""
-            alt="Weather project"
-            summary="A weather app"
-            tech="API, JSON"
-            pageUrl="#"
-            codeUrl="#">
-            Weather (Coming Soon)
-          </CardRight> */}
-
           <CardRight
+            image="weather.png"
+            alt="Weather project"
+            summary="Retrieving data from an API"
+            tech="External API, JSON, Tailwind CSS"
+            pageUrl="https://sethstrouf.github.io/weather/"
+            codeUrl="https://github.com/sethstrouf/weather">
+            Weather App
+          </CardRight>
+
+          <CardLeft
             image="memorycards.png"
             alt="Memory cards project"
             summary="A memory game!"
@@ -108,9 +108,9 @@ export default function App() {
             codeUrl="https://github.com/sethstrouf/memory-cards"
           >
             Memory Cards
-          </CardRight>
+          </CardLeft>
 
-          <CardLeft
+          <CardRight
             image="calculator.png"
             alt="Calculator project"
             summary="One of my first JS projects"
@@ -119,17 +119,6 @@ export default function App() {
             codeUrl="https://github.com/sethstrouf/calculator"
           >
             Calculator
-          </CardLeft>
-
-          <CardRight
-            image="etchasketch.png"
-            alt="Etch a sketch project"
-            summary="Customizable grid size and colors"
-            tech="Vanilla CSS, Vanilla JavaScript"
-            pageUrl="https://sethstrouf.github.io/etch-a-sketch/"
-            codeUrl="https://github.com/sethstrouf/etch-a-sketch"
-          >
-            Etch-A-Sketch
           </CardRight>
 
           <CardLeft
