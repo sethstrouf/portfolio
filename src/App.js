@@ -101,7 +101,7 @@ export default function App() {
 
           <CardLeft
             image="memorycards.png"
-            alt="Memory cards project"
+            alt="My first solo react project"
             summary="A memory game!"
             tech="React, Vanilla CSS, Vanilla JavaScript"
             pageUrl="https://sethstrouf.github.io/memory-cards/"
@@ -113,7 +113,7 @@ export default function App() {
           <CardRight
             image="calculator.png"
             alt="Calculator project"
-            summary="One of my first JS projects"
+            summary="My first study of JavaScript objects"
             tech="Vanilla CSS, Vanilla JavaScript"
             pageUrl="https://sethstrouf.github.io/calculator/"
             codeUrl="https://github.com/sethstrouf/calculator"
@@ -123,7 +123,7 @@ export default function App() {
 
           <CardLeft
             image="rps.png"
-            alt="Rock, Paper, Scissors project"
+            alt="A study in CSS"
             summary="You vs. the computer"
             tech="Vanilla CSS, Vanilla JavaScript"
             pageUrl="https://sethstrouf.github.io/rock-paper-scissors/"
