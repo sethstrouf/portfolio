@@ -80,8 +80,9 @@ export default function App() {
           <CardLeft
             image="blog.png"
             alt="Blog project"
-            summary="Re-creation of a portfolio/blog built on SquareSpace"
-            tech="Ruby on Rails, Authentication &amp; Authorization, AWS Image Hosting"
+            summary="Re-creation of a portfolio/blog"
+            tech="Ruby on Rails, Authentication &amp; Authorization, 
+                  Web scraping"
             pageUrl="https://www.hannahbauer.me"
             codeUrl="https://github.com/sethstrouf/blog"
             optUrl="www.hannahbauer.com"
