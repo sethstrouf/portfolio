@@ -18,8 +18,7 @@ const CardRight = ({
           <div className="col-start-1 col-span-8 row-span-1 flex justify-center items-center">
             <p>{summary}</p>
           </div>
-          <div className="col-start-1 col-span-8 row-span-1  flex justify-center items-center
-                          transform -translate-y-2">
+          <div className="col-start-1 col-span-8 row-span-1  flex justify-center items-center">
             <p>
               (
               <a
