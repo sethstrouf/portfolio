@@ -79,9 +79,9 @@ export default function App() {
         >
           <CardLeft
             image="blog.png"
-            alt="Blog project"
+            alt="Blog Project"
             summary="Re-creation of a portfolio/blog built on SquareSpace"
-            tech="Ruby on Rails, Authentication &amp; Authorization, AWS Image Hosting"
+            tech="Ruby on Rails, Authentication &amp; Authorization, Web Scraping"
             pageUrl="https://www.hannahbauer.me"
             codeUrl="https://github.com/sethstrouf/blog"
             optUrl="www.hannahbauer.com"
@@ -91,7 +91,7 @@ export default function App() {
 
           <CardRight
             image="weather.png"
-            alt="Weather project"
+            alt="Weather Project"
             summary="Retrieving data from an API"
             tech="External API, JSON, Tailwind CSS"
             pageUrl="https://sethstrouf.github.io/weather/"
@@ -101,8 +101,8 @@ export default function App() {
 
           <CardLeft
             image="memorycards.png"
-            alt="My first solo react project"
-            summary="A memory game!"
+            alt="Memory Card Project"
+            summary="A study of components and state"
             tech="React, Vanilla CSS, Vanilla JavaScript"
             pageUrl="https://sethstrouf.github.io/memory-cards/"
             codeUrl="https://github.com/sethstrouf/memory-cards"
@@ -112,8 +112,8 @@ export default function App() {
 
           <CardRight
             image="calculator.png"
-            alt="Calculator project"
-            summary="My first study of JavaScript objects"
+            alt="Calculator Project"
+            summary="A study of JS objects"
             tech="Vanilla CSS, Vanilla JavaScript"
             pageUrl="https://sethstrouf.github.io/calculator/"
             codeUrl="https://github.com/sethstrouf/calculator"
@@ -123,8 +123,8 @@ export default function App() {
 
           <CardLeft
             image="rps.png"
-            alt="A study in CSS"
-            summary="You vs. the computer"
+            alt="Rock Paper Scissors Project"
+            summary="A study of CSS Grid and DOM manipulation"
             tech="Vanilla CSS, Vanilla JavaScript"
             pageUrl="https://sethstrouf.github.io/rock-paper-scissors/"
             codeUrl="https://github.com/sethstrouf/rock-paper-scissors"
