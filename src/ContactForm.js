@@ -1,13 +1,17 @@
 import React from "react";
 
 const ContactForm = () => {
+
   const handleSubmit = (event) => {
     event.preventDefault();
 
-    const notification = document.getElementById("notification");
+    const notification = document.getElementById("notification")
     const sendButton = document.getElementById("sendButton")
-    sendButton.value = "Sending..."
-    sendButton.classList.add("animate-bounce")
+    const spinner = document.createElement('i')
+    spinner.classList.add("fas", "fa-spinner", "animate-spin")
+    /* Change Send button to a spinning loading circle */
+    sendButton.innerText = ""
+    sendButton.append(spinner)
 
     window.emailjs
       .sendForm("gmail_service", "contact_template", event.target)
@@ -16,14 +20,12 @@ const ContactForm = () => {
           document.getElementById("contact-form").reset();
           notification.classList.add("text-green-500");
           notification.textContent = "MESSAGE DELIVERED!";
-          sendButton.value = "Send";
-          sendButton.classList.remove("animate-bounce");
+          sendButton.innerText = "Send";
         },
         function (error) {
           notification.classList.add("text-red-500");
           notification.textContent = "Sorry, the message was not delivered.";
-          sendButton.value = "Send";
-          sendButton.classList.remove("animate-bounce");
+          sendButton.innerText = "Send";
         }
       );
   };
@@ -70,13 +72,14 @@ const ContactForm = () => {
 
 
       <div className="form-div">
-        <input
+        <button
           id="sendButton"
           type="submit"
-          value="Send"
           className="py-1 md:py-2 w-full rounded bg-green-400 
               hover:bg-green-300 font-bold text-gray-800 focused"
-        />
+        >
+          Send
+        </button>
       </div>
     </form>
   );
