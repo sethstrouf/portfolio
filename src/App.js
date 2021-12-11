@@ -80,7 +80,7 @@ export default function App() {
           <CardLeft
             image="blog.png"
             alt="Blog Project"
-            summary="Re-creation of a portfolio/blog built on SquareSpace"
+            summary="Re-creating a portfolio/blog"
             tech="Ruby on Rails, Authentication &amp; Authorization, Web Scraping"
             pageUrl="https://www.hannahbauer.me"
             codeUrl="https://github.com/sethstrouf/blog"
@@ -102,7 +102,7 @@ export default function App() {
           <CardLeft
             image="memorycards.png"
             alt="Memory Card Project"
-            summary="A study of components and state"
+            summary="Working with components and state"
             tech="React, Vanilla CSS, Vanilla JavaScript"
             pageUrl="https://sethstrouf.github.io/memory-cards/"
             codeUrl="https://github.com/sethstrouf/memory-cards"
@@ -113,7 +113,7 @@ export default function App() {
           <CardRight
             image="calculator.png"
             alt="Calculator Project"
-            summary="A study of JS objects"
+            summary="Studying JavaScript objects"
             tech="Vanilla CSS, Vanilla JavaScript"
             pageUrl="https://sethstrouf.github.io/calculator/"
             codeUrl="https://github.com/sethstrouf/calculator"
@@ -124,7 +124,7 @@ export default function App() {
           <CardLeft
             image="rps.png"
             alt="Rock Paper Scissors Project"
-            summary="A study of CSS Grid and DOM manipulation"
+            summary="Using CSS Grid and DOM manipulation"
             tech="Vanilla CSS, Vanilla JavaScript"
             pageUrl="https://sethstrouf.github.io/rock-paper-scissors/"
             codeUrl="https://github.com/sethstrouf/rock-paper-scissors"
