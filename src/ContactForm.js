@@ -5,6 +5,9 @@ const ContactForm = () => {
     event.preventDefault();
 
     const notification = document.getElementById("notification");
+    const sendButton = document.getElementById("sendButton")
+    sendButton.value = "Sending..."
+    sendButton.classList.add("animate-bounce")
 
     window.emailjs
       .sendForm("gmail_service", "contact_template", event.target)
@@ -13,10 +16,14 @@ const ContactForm = () => {
           document.getElementById("contact-form").reset();
           notification.classList.add("text-green-500");
           notification.textContent = "MESSAGE DELIVERED!";
+          sendButton.value = "Send";
+          sendButton.classList.remove("animate-bounce");
         },
         function (error) {
           notification.classList.add("text-red-500");
           notification.textContent = "Sorry, the message was not delivered.";
+          sendButton.value = "Send";
+          sendButton.classList.remove("animate-bounce");
         }
       );
   };
@@ -63,6 +70,7 @@ const ContactForm = () => {
 
       <div className="form-div">
         <input
+          id="sendButton"
           type="submit"
           value="Send"
           className="py-1 md:py-2 w-full rounded bg-green-400 
