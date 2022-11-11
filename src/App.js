@@ -8,17 +8,17 @@ import Pdf from "./Resume.pdf";
 export default function App() {
   return (
     <div
-      className="min-h-screen m-auto bg-gray-100 text-gray-700 text-center 
+      className="min-h-screen m-auto bg-gray-100 text-gray-700 text-center
                     typography md:text-lg lg:text-xl xl:text-2xl 2xl:text-3xl"
     >
       <header>
         <NavBar />
         <div
-          className="my-4 md:flex md:justify-center md:items-center 
+          className="my-4 md:flex md:justify-center md:items-center
                         md:my-12 2xl:my-24"
         >
           <div
-            className="pt-4 md:border-r-4 md:border-green-400 md:w-6/12 
+            className="pt-4 md:border-r-4 md:border-green-400 md:w-6/12
                           md:text-right md:py-12 2xl:py-24"
           >
             <h1
@@ -31,7 +31,7 @@ export default function App() {
           </div>
           <div className="pt-1 md:w-6/12 md:text-left">
             <p
-              className="text-xl md:pl-8 md:text-2xl lg:3xl 
+              className="text-xl md:pl-8 md:text-2xl lg:3xl
                           xl:text-4xl 2xl:text-6xl"
             >
               a full-stack web developer
@@ -41,7 +41,7 @@ export default function App() {
         <p>
           <a
             href={Pdf}
-            className="rounded bg-green-400 hover:bg-green-300 focused 
+            className="rounded bg-green-400 hover:bg-green-300 focused
                           font-bold py-1 px-4 md:py-2 md:px-6 xl:px-8 text-gray-800"
           >
             Resumé
@@ -139,10 +139,10 @@ export default function App() {
 
       <footer>
         <div
-          className="bg-green-700 mt-12 text-gray-50 
+          className="bg-green-700 mt-12 text-gray-50
                           border-t-4 border-green-400 py-1"
         >
-          <p>&copy;2021 Seth Strouf</p>
+          <p>&copy;2022 Seth Strouf</p>
         </div>
       </footer>
     </div>
