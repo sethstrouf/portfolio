@@ -6,3 +6,7 @@
 - Tailwind CSS
 - EmailJS (Contact Form)
 - Enviromental Variables
+
+### Deploy to Github Pages
+
+```npm run deploy```

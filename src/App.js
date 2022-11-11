@@ -52,14 +52,8 @@ export default function App() {
       <main>
         <MainHeader>About</MainHeader>
         <div className="mt-12 mx-12 md:mx-16 xl:mx-24 text-left">
-          <p>
-            My two passions have always been music and programming. After 12
-            years of teaching, I'm transitioning to web development as my
-            career. I enjoy working in the full stack of web development and
-            have most experience with Ruby on Rails and React.
-          </p>
           <p className="mt-8">
-            Outside of work, I enjoy time with my wife and two cats and Husker
+            Outside of web development, I enjoy time with my wife and two cats and Husker
             games with friends. I also enjoy gaming&#8212;mostly indies,
             simulators, and the occasional RTS&#8212;and maintain a&nbsp;
             <a
