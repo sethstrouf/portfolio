@@ -4,6 +4,7 @@ import RedBanner from './RedBanner'
 import BlueBanner from './BlueBanner'
 import IndigoBanner from './IndigoBanner'
 import EmeraldBanner from './EmeraldBanner'
+import LargeSplitButton from './LargeSplitButton'
 
 export default function DoubleFeature() {
   return (
@@ -13,46 +14,31 @@ export default function DoubleFeature() {
           <div className="mx-auto max-w-xl px-6 lg:mx-0 lg:max-w-none lg:py-16 lg:px-0">
             <div>
               <div id="first-feature" className="mt-6">
-                <h2 className="text-3xl font-bold tracking-tight text-gray-900">Songsemble</h2>
+                <h2 className="text-3xl font-bold tracking-tight text-gray-900">
+                  <a
+                    href="https://www.songsemble.com/signin?email=guest_user@mail.com&password=testPassword123!"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="serif hover:text-gray-700"
+                  >
+                    Songsemble
+                  </a>
+                </h2>
                 <div className="mt-4 flex justify-center flex-wrap">
                   <RedBanner text="Rails" />
                   <BlueBanner text="React" />
                   <IndigoBanner text="Typescript" />
-                  <EmeraldBanner text="Rspec" />
+                  <EmeraldBanner text="RSpec" />
                 </div>
                 <p className="mt-4 text-lg text-gray-600">
                   A music library management application that allows users to connect with
                   colleagues to share libraries.
                 </p>
-                <div className="mt-6 mb-8">
-                  <a
-                    href="https://github.com/sethstrouf/music-library-frontend"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="inline-flex rounded-l-lg bg-cyan-600 border-r-2 border-cyan-700 px-4 pt-1 pb-2 text-base font-semibold leading-7 text-white shadow-sm ring-1 ring-cyan-600 hover:bg-cyan-700 hover:ring-cyan-700"
-                  >
-                    <i className="fa-brands fa-github text-xl"></i>
-                  </a>
-                  <a
-                    href="https://www.songsemble.com/signin?email=guest_user@mail.com&password=testPassword123!"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="inline-flex bg-cyan-600 border-r-2 border-cyan-700 px-4 py-1.5 text-base font-semibold leading-7 text-white shadow-sm ring-1 ring-cyan-600 hover:bg-cyan-700 hover:ring-cyan-700"
-                  >
-                    View Site
-                  </a>
-                  <a
-                    href="https://github.com/sethstrouf/music-library-api"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="inline-flex rounded-r-lg bg-cyan-600 px-4 pt-1 pb-2 text-base font-semibold leading-7 text-white shadow-sm ring-1 ring-cyan-600 hover:bg-cyan-700 hover:ring-cyan-700"
-                  >
-                    <i className="fa-brands fa-github text-xl"></i>
-                  </a>
-                  <p className='mt-4 text-base text-gray-500'>This link will take you to the login page with a Guest account ready to log in.</p>
+                <div className='mt-8 mb-10 mr-12'>
+                  <LargeSplitButton siteUrl={"https://www.songsemble.com/signin?email=guest_user@mail.com&password=testPassword123!"} codeUrl={"https://github.com/sethstrouf/music-library-api"} />
                 </div>
                 <div className="mt-4 border-t">
-                  <p className='mt-4 text-base text-gray-500'>JWT Authentication, SSL with Cloudflare, Amazon S3 Storage, SendGrid Mailers, Github Actions</p>
+                  <p className='mt-4 text-base text-gray-500'>JWT Authentication, Zustand for state management, SSL with Cloudflare, Amazon S3 Storage, SendGrid Mailers, Github Actions</p>
                 </div>
               </div>
             </div>
@@ -74,33 +60,27 @@ export default function DoubleFeature() {
           <div className="mx-auto max-w-xl px-6 lg:col-start-2 lg:mx-0 lg:max-w-none lg:py-32 lg:px-0">
             <div>
               <div className="mt-6">
-                <h2 className="text-3xl font-bold tracking-tight text-gray-900">Blog</h2>
+                <h2 className="text-3xl font-bold tracking-tight text-gray-900">
+                  <a
+                    href="https://www.hannahbauer.me"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="serif hover:text-gray-700"
+                  >
+                    Blog
+                  </a>
+                </h2>
                 <div className="mt-4 flex justify-center flex-wrap">
                   <RedBanner text="Rails" color="red" />
                 </div>
                 <p className="mt-4 text-lg text-gray-600">
                   A blog originally made using Squarespace re-created using Rails.
                 </p>
-                <div className="mt-6 mb-8">
-                  <a
-                      href="https://www.hannahbauer.me"
-                      target="_blank"
-                      rel="noopener noreferrer"
-                      className="inline-flex rounded-l-lg bg-cyan-600 border-r-2 border-cyan-700 px-4 py-1.5 text-base font-semibold leading-7 text-white shadow-sm ring-1 ring-cyan-600 hover:bg-cyan-700 hover:ring-cyan-700"
-                    >
-                      View Site
-                    </a>
-                    <a
-                      href="https://github.com/sethstrouf/blog"
-                      target="_blank"
-                      rel="noopener noreferrer"
-                      className="inline-flex rounded-r-lg bg-cyan-600 px-4 pt-1 pb-2 text-base font-semibold leading-7 text-white shadow-sm ring-1 ring-cyan-600 hover:bg-cyan-700 hover:ring-cyan-700"
-                    >
-                      <i className="fa-brands fa-github text-xl"></i>
-                    </a>
+                <div className='mt-8 mb-10 mr-12'>
+                  <LargeSplitButton siteUrl={"https://www.hannahbauer.me"} codeUrl={"https://github.com/sethstrouf/blog"} />
                 </div>
                 <div className="mt-4 border-t">
-                  <p className='mt-4 text-base text-gray-500'>Devise Authentication, SSL with Cloudflare, Amazon S3 Storage</p>
+                  <p className='mt-4 text-base text-gray-500'>Devise Authentication, SSL with Cloudflare, Amazon S3 Storage, Web Scraping</p>
                 </div>
               </div>
             </div>

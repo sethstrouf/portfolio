@@ -1,6 +1,7 @@
 import WeatherScreenshot from "../assets/weather.png"
 import MemoryCardsScreenshot from "../assets/memorycards.png"
 import CalculatorScreenshot from "../assets/calculator.png"
+import SmallSplitButton from "./SmallSplitButton"
 
 const projects = [
   {
@@ -9,23 +10,8 @@ const projects = [
     description: 'React, TailwindCSS, API from weatherapi.com',
     imageUrl: WeatherScreenshot,
     viewButton: () => (
-      <div className="mt-6 mb-8">
-        <a
-          href="https://sethstrouf.github.io/weather/"
-          target="_blank"
-          rel="noopener noreferrer"
-          className="inline-flex rounded-l-lg bg-cyan-600 border-r-2 border-cyan-700 px-2 py-0.5 text-base font-semibold leading-7 text-white shadow-sm ring-1 ring-cyan-600 hover:bg-cyan-700 hover:ring-cyan-700"
-        >
-          View Site
-        </a>
-        <a
-          href="https://github.com/sethstrouf/weather"
-          target="_blank"
-          rel="noopener noreferrer"
-          className="inline-flex rounded-r-lg bg-cyan-600 px-2 pb-1 text-base font-semibold leading-7 text-white shadow-sm ring-1 ring-cyan-600 hover:bg-cyan-700 hover:ring-cyan-700"
-        >
-          <i className="fa-brands fa-github text-xl"></i>
-        </a>
+      <div className="mb-4 md:mb-10 mr-12">
+        <SmallSplitButton siteUrl={"https://sethstrouf.github.io/weather/"} codeUrl={"https://github.com/sethstrouf/weather"} />
       </div>
     ),
   },
@@ -35,23 +21,8 @@ const projects = [
     description: 'React, Vanilla CSS',
     imageUrl: MemoryCardsScreenshot,
     viewButton: () => (
-      <div className="mt-6 mb-8">
-        <a
-          href="https://sethstrouf.github.io/memory-cards/"
-          target="_blank"
-          rel="noopener noreferrer"
-          className="inline-flex rounded-l-lg bg-cyan-600 border-r-2 border-cyan-700 px-2 py-0.5 text-base font-semibold leading-7 text-white shadow-sm ring-1 ring-cyan-600 hover:bg-cyan-700 hover:ring-cyan-700"
-        >
-          View Site
-        </a>
-        <a
-          href="https://github.com/sethstrouf/memory-cards"
-          target="_blank"
-          rel="noopener noreferrer"
-          className="inline-flex rounded-r-lg bg-cyan-600 px-2 pb-1 text-base font-semibold leading-7 text-white shadow-sm ring-1 ring-cyan-600 hover:bg-cyan-700 hover:ring-cyan-700"
-        >
-          <i className="fa-brands fa-github text-xl"></i>
-        </a>
+      <div className="mb-4 md:mb-10 mr-12">
+        <SmallSplitButton siteUrl={"https://sethstrouf.github.io/memory-cards/"} codeUrl={"https://github.com/sethstrouf/memory-cards"} />
       </div>
     ),
   },
@@ -61,23 +32,8 @@ const projects = [
     description: 'Vanilla Javascript, Vanilla CSS',
     imageUrl: CalculatorScreenshot,
     viewButton: () => (
-      <div className="mt-6 mb-8">
-        <a
-          href="https://sethstrouf.github.io/calculator/"
-          target="_blank"
-          rel="noopener noreferrer"
-          className="inline-flex rounded-l-lg bg-cyan-600 border-r-2 border-cyan-700 px-2 py-0.5 text-base font-semibold leading-7 text-white shadow-sm ring-1 ring-cyan-600 hover:bg-cyan-700 hover:ring-cyan-700"
-        >
-          View Site
-        </a>
-        <a
-          href="https://github.com/sethstrouf/calculator"
-          target="_blank"
-          rel="noopener noreferrer"
-          className="inline-flex rounded-r-lg bg-cyan-600 px-2 pb-1 text-base font-semibold leading-7 text-white shadow-sm ring-1 ring-cyan-600 hover:bg-cyan-700 hover:ring-cyan-700"
-        >
-          <i className="fa-brands fa-github text-xl"></i>
-        </a>
+      <div className="mb-4 md:mb-10 mr-12">
+        <SmallSplitButton siteUrl={"https://sethstrouf.github.io/calculator/"} codeUrl={"https://github.com/sethstrouf/calculator"} />
       </div>
     ),
   },
@@ -102,7 +58,7 @@ export default function ThreeColumnCard() {
               <div className="flex flex-1 flex-col justify-between bg-gray-50 p-6">
                 <div className="flex-1">
                   <a href={post.href} className="mt-2 block" target="_blank" rel="noopener noreferrer">
-                    <p className="text-xl font-semibold text-gray-900">{post.title}</p>
+                    <p className="serif text-xl font-semibold text-gray-900">{post.title}</p>
                     <p className="mt-3 text-base text-gray-500">{post.description}</p>
                   </a>
                 </div>

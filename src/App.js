@@ -5,7 +5,7 @@ import ThreeColumnCard from "./components/ThreeColumnCard";
 
 export default function App() {
   return (
-    <div className="min-h-screen mx-auto text-center">
+    <div className="sans-serif min-h-screen mx-auto text-center">
       <Hero />
 
       <main>
