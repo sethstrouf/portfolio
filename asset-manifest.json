@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/static/css/main.6bb6c3bb.chunk.css",
-    "main.js": "/static/js/main.fc364934.chunk.js",
-    "main.js.map": "/static/js/main.fc364934.chunk.js.map",
+    "main.css": "/static/css/main.a397e2db.chunk.css",
+    "main.js": "/static/js/main.ec940861.chunk.js",
+    "main.js.map": "/static/js/main.ec940861.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.d0605945.js",
     "runtime-main.js.map": "/static/js/runtime-main.d0605945.js.map",
     "static/js/2.6c714153.chunk.js": "/static/js/2.6c714153.chunk.js",
     "static/js/2.6c714153.chunk.js.map": "/static/js/2.6c714153.chunk.js.map",
     "index.html": "/index.html",
-    "static/css/main.6bb6c3bb.chunk.css.map": "/static/css/main.6bb6c3bb.chunk.css.map",
+    "static/css/main.a397e2db.chunk.css.map": "/static/css/main.a397e2db.chunk.css.map",
     "static/js/2.6c714153.chunk.js.LICENSE.txt": "/static/js/2.6c714153.chunk.js.LICENSE.txt",
-    "static/media/Resume.9b0c550e.pdf": "/static/media/Resume.9b0c550e.pdf",
+    "static/media/Resume.a1a88bbb.pdf": "/static/media/Resume.a1a88bbb.pdf",
     "static/media/blog.b641bab9.png": "/static/media/blog.b641bab9.png",
     "static/media/calculator.5d4afea5.png": "/static/media/calculator.5d4afea5.png",
     "static/media/memorycards.21f3eb40.png": "/static/media/memorycards.21f3eb40.png",
@@ -20,7 +20,7 @@
   "entrypoints": [
     "static/js/runtime-main.d0605945.js",
     "static/js/2.6c714153.chunk.js",
-    "static/css/main.6bb6c3bb.chunk.css",
-    "static/js/main.fc364934.chunk.js"
+    "static/css/main.a397e2db.chunk.css",
+    "static/js/main.ec940861.chunk.js"
   ]
 }
