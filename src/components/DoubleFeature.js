@@ -1,6 +1,9 @@
 import SongsembleScreenshot from '../assets/songsemble.png'
 import BlogScreenshot from '../assets/blog.png'
-import Banner from './Banner'
+import RedBanner from './RedBanner'
+import BlueBanner from './BlueBanner'
+import IndigoBanner from './IndigoBanner'
+import EmeraldBanner from './EmeraldBanner'
 
 export default function DoubleFeature() {
   return (
@@ -12,10 +15,10 @@ export default function DoubleFeature() {
               <div id="first-feature" className="mt-6">
                 <h2 className="text-3xl font-bold tracking-tight text-gray-900">Songsemble</h2>
                 <div className="mt-4 flex justify-center flex-wrap">
-                  <Banner text="Rails" color="red" />
-                  <Banner text="React" color="blue" />
-                  <Banner text="Typescript" color="purple" />
-                  <Banner text="Rspec" color="green" />
+                  <RedBanner text="Rails" />
+                  <BlueBanner text="React" />
+                  <IndigoBanner text="Typescript" />
+                  <EmeraldBanner text="Rspec" />
                 </div>
                 <p className="mt-4 text-lg text-gray-600">
                   A music library management application that allows users to connect with
@@ -73,7 +76,7 @@ export default function DoubleFeature() {
               <div className="mt-6">
                 <h2 className="text-3xl font-bold tracking-tight text-gray-900">Blog</h2>
                 <div className="mt-4 flex justify-center flex-wrap">
-                  <Banner text="Rails" color="red" />
+                  <RedBanner text="Rails" color="red" />
                 </div>
                 <p className="mt-4 text-lg text-gray-600">
                   A blog originally made using Squarespace re-created using Rails.
