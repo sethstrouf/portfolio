@@ -31,7 +31,7 @@ export default function DoubleFeature() {
                     <i className="fa-brands fa-github text-xl"></i>
                   </a>
                   <a
-                    href="https://www.songsemble.com"
+                    href="https://www.songsemble.com/signin?email=guest_user@mail.com&password=testPassword123!"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="inline-flex bg-cyan-600 border-r-2 border-cyan-700 px-4 py-1.5 text-base font-semibold leading-7 text-white shadow-sm ring-1 ring-cyan-600 hover:bg-cyan-700 hover:ring-cyan-700"
@@ -46,6 +46,7 @@ export default function DoubleFeature() {
                   >
                     <i className="fa-brands fa-github text-xl"></i>
                   </a>
+                  <p className='mt-4 text-base text-gray-500'>This link will take you to the login page with a Guest account ready to log in.</p>
                 </div>
                 <div className="mt-4 border-t">
                   <p className='mt-4 text-base text-gray-500'>JWT Authentication, SSL with Cloudflare, Amazon S3 Storage, SendGrid Mailers, Github Actions</p>
