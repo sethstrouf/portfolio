@@ -1,35 +1,9 @@
-@import url("https://fonts.googleapis.com/css2?family=Montagu+Slab:wght@700&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montagu+Slab:wght@600&display=swap");
 
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
-.typography {
-  font-family: "Source Sans Pro", sans-serif;
-}
-
 .serif {
   font-family: "Montagu Slab", serif;
-}
-
-.name {
-  text-decoration: underline;
-  text-decoration-color: #34d399;
-}
-
-.scale-hover:hover {
-  transform: scale(1.01);
-}
-
-@layer components {
-  .focused {
-    @apply focus:ring focus:ring-green-500 focus:outline-none;
-  }
-  .form-div {
-    @apply text-left mx-auto w-10/12;
-  }
-  .input-element {
-    @apply mb-4 p-1 border border-gray-400 w-full rounded hover:bg-green-50;
-  }
 }
