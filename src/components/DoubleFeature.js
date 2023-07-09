@@ -1,5 +1,5 @@
 import SongsembleScreenshot from '../assets/songsemble.png'
-import BlogScreenshot from '../assets/blog.png'
+import BlogScreenshot from '../assets/blogv2.png'
 import RedBanner from './RedBanner'
 import BlueBanner from './BlueBanner'
 import IndigoBanner from './IndigoBanner'
@@ -71,13 +71,14 @@ export default function DoubleFeature() {
                   </a>
                 </h2>
                 <div className="mt-4 flex justify-center flex-wrap">
-                  <RedBanner text="Rails" color="red" />
+                  <RedBanner text="Rails" />
+                  <BlueBanner text="Svelte" />
                 </div>
                 <p className="mt-4 text-lg text-gray-600">
-                  A blog originally made using Squarespace re-created using Rails.
+                  A blog originally made using Squarespace re-created using Svelte and Rails.
                 </p>
                 <div className='mt-8 mb-10 mr-12'>
-                  <LargeSplitButton siteUrl={"https://www.hannahbauer.me"} codeUrl={"https://github.com/sethstrouf/blog"} />
+                  <LargeSplitButton siteUrl={"https://www.hannahbauer.me"} codeUrl={"https://github.com/sethstrouf/blog-v2-backend"} />
                 </div>
                 <div className="mt-4 border-t">
                   <p className='mt-4 text-base text-gray-500'>Devise Authentication, SSL with Cloudflare, Amazon S3 Storage, Web Scraping</p>
