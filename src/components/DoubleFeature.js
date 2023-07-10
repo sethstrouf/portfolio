@@ -75,13 +75,13 @@ export default function DoubleFeature() {
                   <BlueBanner text="Svelte" />
                 </div>
                 <p className="mt-4 text-lg text-gray-600">
-                  A blog originally made using Squarespace re-created using Svelte and Rails.
+                  A blog created with Svelte and Rails. The Admin portal can be found at admin.hannahbauer.me.
                 </p>
                 <div className='mt-8 mb-10 mr-12'>
                   <LargeSplitButton siteUrl={"https://www.hannahbauer.me"} codeUrl={"https://github.com/sethstrouf/blog-v2-backend"} />
                 </div>
                 <div className="mt-4 border-t">
-                  <p className='mt-4 text-base text-gray-500'>Devise Authentication, SSL with Cloudflare, Amazon S3 Storage, Web Scraping</p>
+                  <p className='mt-4 text-base text-gray-500'>Token Authentication, SSL with Cloudflare, Amazon S3 Storage, Web Scraping</p>
                 </div>
               </div>
             </div>
