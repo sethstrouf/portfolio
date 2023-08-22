@@ -1,7 +1,6 @@
 import Hero from "./components/Hero"
 import DoubleFeature from "./components/DoubleFeature"
 import Footer from "./components/Footer"
-import ThreeColumnCard from "./components/ThreeColumnCard";
 
 export default function App() {
   return (
@@ -10,7 +9,6 @@ export default function App() {
 
       <main>
         <DoubleFeature />
-        <ThreeColumnCard />
       </main>
 
       <Footer />

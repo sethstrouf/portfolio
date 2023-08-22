@@ -5,7 +5,6 @@ import ResumePdf from "../assets/Resume.pdf"
 const navigation = [
   { name: 'Songsemble', href: '#first-feature' },
   { name: 'Blog', href: '#second-feature' },
-  { name: 'Other Projects', href: '#other-projects' },
 ]
 
 export default function Hero() {
