@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/static/css/main.7eb7847b.chunk.css",
-    "main.js": "/static/js/main.ee823294.chunk.js",
-    "main.js.map": "/static/js/main.ee823294.chunk.js.map",
+    "main.js": "/static/js/main.96cc7abb.chunk.js",
+    "main.js.map": "/static/js/main.96cc7abb.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.d0605945.js",
     "runtime-main.js.map": "/static/js/runtime-main.d0605945.js.map",
     "static/js/2.2c677d51.chunk.js": "/static/js/2.2c677d51.chunk.js",
@@ -10,7 +10,7 @@
     "index.html": "/index.html",
     "static/css/main.7eb7847b.chunk.css.map": "/static/css/main.7eb7847b.chunk.css.map",
     "static/js/2.2c677d51.chunk.js.LICENSE.txt": "/static/js/2.2c677d51.chunk.js.LICENSE.txt",
-    "static/media/Resume.663336c9.pdf": "/static/media/Resume.663336c9.pdf",
+    "static/media/Resume.4697afff.pdf": "/static/media/Resume.4697afff.pdf",
     "static/media/blogv2.d3a9b7fb.png": "/static/media/blogv2.d3a9b7fb.png",
     "static/media/songsemble.a735aadc.png": "/static/media/songsemble.a735aadc.png"
   },
@@ -18,6 +18,6 @@
     "static/js/runtime-main.d0605945.js",
     "static/js/2.2c677d51.chunk.js",
     "static/css/main.7eb7847b.chunk.css",
-    "static/js/main.ee823294.chunk.js"
+    "static/js/main.96cc7abb.chunk.js"
   ]
 }
