@@ -9,4 +9,5 @@
 
 ### Deploy to Github Pages
 
+```nvm use 16```
 ```npm run deploy```
