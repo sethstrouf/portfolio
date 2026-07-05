@@ -1,45 +1,29 @@
-const navigation = {
-  social: [
-    {
-      name: 'LinkedIn',
-      href: 'https://www.linkedin.com/in/sethstrouf',
-      icon: () => (
-        <i className="fa-brands fa-linkedin text-xl"></i>
-      ),
-    },
-    {
-      name: 'GitHub',
-      href: 'https://github.com/sethstrouf?tab=repositories',
-      icon: () => (
-        <i className="fa-brands fa-github text-xl"></i>
-      ),
-    },
-    {
-      name: 'YouTube',
-      href: 'https://www.youtube.com/moose2006lp',
-      icon: () => (
-        <i className="fa-brands fa-youtube text-xl"></i>
-      ),
-    },
-  ],
-}
+import { SOCIAL_LINKS } from "../data/content";
 
 export default function Footer() {
+  const currentYear = new Date().getFullYear();
+
   return (
-    <footer className="bg-gray-50">
-      <div className="mx-auto max-w-7xl overflow-hidden lg:px-8">
-        <div className="mt-10 flex justify-center space-x-10">
-          {navigation.social.map((item) => (
-            <a key={item.name} href={item.href} target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-gray-500">
+    <footer className="border-t border-slate-800 bg-slate-950">
+      <div className="mx-auto flex max-w-7xl flex-col items-center gap-6 px-6 py-10 lg:px-8">
+        <div className="flex gap-6">
+          {SOCIAL_LINKS.map((item) => (
+            <a
+              key={item.name}
+              href={item.href}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-slate-500 transition hover:text-cyan-400"
+            >
               <span className="sr-only">{item.name}</span>
-              <item.icon className="h-6 w-6" aria-hidden="true" />
+              <i className={`${item.iconClass} text-xl`} aria-hidden="true" />
             </a>
           ))}
         </div>
-        <p className="mt-6 mb-2 text-center text-xs leading-5 text-gray-500">
-          &copy; 2026 Seth Strouf
+        <p className="text-sm text-slate-500">
+          &copy; {currentYear} Seth Strouf
         </p>
       </div>
     </footer>
-  )
+  );
 }

@@ -1,16 +1,14 @@
-import Hero from "./components/Hero"
-import DoubleFeature from "./components/DoubleFeature"
-import Footer from "./components/Footer"
+import Hero from "./components/Hero";
+import Projects from "./components/Projects";
+import Footer from "./components/Footer";
 
 export default function App() {
   return (
-    <div className="sans-serif min-h-screen mx-auto text-center">
+    <div className="min-h-screen bg-white text-slate-900 antialiased">
       <Hero />
-
       <main>
-        <DoubleFeature />
+        <Projects />
       </main>
-
       <Footer />
     </div>
   );
