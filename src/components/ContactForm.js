@@ -1,4 +1,10 @@
+import { useEffect } from "react";
+
 export default function ContactForm() {
+  useEffect(() => {
+    window.emailjs.init({ publicKey: process.env.REACT_APP_EMAILJS_PUBLIC_KEY });
+  }, []);
+
   const handleSubmit = (event) => {
     event.preventDefault();
 
