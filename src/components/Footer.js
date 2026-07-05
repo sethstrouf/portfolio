@@ -37,7 +37,7 @@ export default function Footer() {
           ))}
         </div>
         <p className="mt-6 mb-2 text-center text-xs leading-5 text-gray-500">
-          &copy; 2023 Seth Strouf
+          &copy; 2026 Seth Strouf
         </p>
       </div>
     </footer>

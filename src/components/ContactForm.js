@@ -1,8 +1,9 @@
 import { useEffect } from "react";
+import emailjs from "@emailjs/browser";
 
 export default function ContactForm() {
   useEffect(() => {
-    window.emailjs.init({ publicKey: process.env.REACT_APP_EMAILJS_PUBLIC_KEY });
+    emailjs.init({ publicKey: process.env.REACT_APP_EMAILJS_PUBLIC_KEY });
   }, []);
 
   const handleSubmit = (event) => {
@@ -16,7 +17,7 @@ export default function ContactForm() {
     sendButton.innerText = ""
     sendButton.append(spinner)
 
-    window.emailjs
+    emailjs
       .sendForm("gmail_service", "contact_template", event.target)
       .then(
         function (response) {
